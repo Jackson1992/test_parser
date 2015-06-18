@@ -1,0 +1,7 @@
+language: c++
+compiler: g++
+script:  
+ - ./build.sh init 
+ - ./configure --perfix=Jackson1992/test_parse/install 
+ - make 
+ - make install
