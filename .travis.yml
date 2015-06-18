@@ -4,5 +4,5 @@ script:
  - ./build.sh init
  - pwd
  - ./configure --prefix=/home/travis/build/Jackson1992/test_parser/install 
- - make 
- - make install
+ - sudo make 
+ - sudo make install
