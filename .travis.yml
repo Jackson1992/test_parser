@@ -5,3 +5,4 @@ script:
  - ./configure --prefix=/home/travis/build/Jackson1992/test_parser/install 
  - sudo make 
  - sudo make install
+ - ls
