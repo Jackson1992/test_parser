@@ -9,4 +9,3 @@ script:
  - cd ./test && ls
  - cd  ./main && ls
  - ./parser_test
- - select *;
