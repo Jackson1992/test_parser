@@ -7,5 +7,5 @@ script:
  - sudo make install
  - ls
  - cd ./test && ls
- - parser
+ - cd  ./parser && ls
  - select *;
