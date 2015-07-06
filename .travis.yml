@@ -8,4 +8,4 @@ script:
  - ls
  - cd ./test && ls
  - cd  ./main && ls
- - ./parser_test
+ - ./parser_test &&　select *;
