@@ -2,7 +2,8 @@ language: cpp
 compiler: gcc
 script:
  - sudo apt-get update
- - sudo apt-get install libdevel
+ - cd /usr/bin/ld
+ - ls
  - ./build.sh init
  - pwd
  - ./configure --prefix=/home/travis/build/Jackson1992/test_parser/install 
