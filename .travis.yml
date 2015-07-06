@@ -3,6 +3,7 @@ compiler: gcc
 script:
  - cd /usr/lib
  - ls
+ - apt-cache search libxs-dev
  - ./build.sh init
  - pwd
  - ./configure --prefix=/home/travis/build/Jackson1992/test_parser/install 
