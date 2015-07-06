@@ -1,5 +1,5 @@
 language: cpp
-compiler: gcc 4.8
+compiler: gcc "4.8"
 script:
  - ./build.sh init
  - ./configure --prefix=/home/travis/build/Jackson1992/test_parser/install 
