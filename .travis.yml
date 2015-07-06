@@ -1,7 +1,6 @@
 language: cpp
 compiler: gcc
 script:
- - sudo apt-get update
  - cd /usr/bin
  - ls
  - ./build.sh init
