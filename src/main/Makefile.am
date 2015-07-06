@@ -1,6 +1,6 @@
 AM_CPPFLAGS= -fPIC 
 
-AM_LDFLAGS= -lc -lm -lrt -lxs -lpthread 
+AM_LDFLAGS= -lc -lm -lrt  -lpthread 
 
 #include_HEADERS = m_test.h
 				
