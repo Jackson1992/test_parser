@@ -2,8 +2,6 @@ language: cpp
 compiler: gcc
 script:
  - sudo apt-get update
- - cd /usr/lib
- - ls
  - sudo apt-cache search libxs-dev
  - ./build.sh init
  - pwd
