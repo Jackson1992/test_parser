@@ -6,3 +6,4 @@ script:
  - sudo make 
  - sudo make install
  - ls
+ - cd ./test
