@@ -20,7 +20,7 @@ install:
   - sudo apt-cache search boost
   - sudo apt-get install libboost-dev
   - echo $BOOST_HOME
-  - java --version
+  - java -version
 
 script:
  - $CXX --version
