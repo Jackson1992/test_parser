@@ -17,11 +17,13 @@ install:
   # clang 3.4
   - if [ "$CXX" == "clang++" ]; then sudo apt-get install --allow-unauthenticated -qq clang-3.4; fi
   - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.4"; fi
-  - sudo apt-cache search boost
+
   - sudo apt-get install libboost-dev
-  - java -version
-  - sudo apt-cache search numa
   - sudo apt-get install libnuma-dbg
+  - sudo apt-get install libnuma-dev
+  - sudo apt-get install libnuma1
+  - sudo apt-get install numactl
+numactl: NUMA scheduling and memory placement tool
 
 script:
  - $CXX --version
