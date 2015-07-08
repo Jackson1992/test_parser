@@ -1,0 +1,69 @@
+xs_init(3)
+==========
+
+
+NAME
+----
+xs_init - initialise Crossroads context
+
+
+SYNOPSIS
+--------
+*void *xs_init ();*
+
+
+DESCRIPTION
+-----------
+The _xs_init()_ function initialises a Crossroads 'context'.
+
+.Thread safety
+A 'context' is thread safe and may be shared among as many application
+threads as necessary, without any additional locking required on the part of
+the caller.
+
+The individual 'sockets' within a 'context' are _not_ thread safe --
+applications may _not_ use a single 'socket' concurrently from multiple
+threads.
+
+A 'socket' _may_ be _migrated_ from one thread to another, by issuing a
+full memory barrier between individual calls on the 'socket'.  For example,
+this means applications can create a socket in one thread with
+_xs_socket()_ and then pass it to a _newly created_ thread as part of
+thread initialization via a structure passed as an argument to
+_pthread_create()_.
+
+.Context options
+Context options may be set prior to creating the first socket within a
+'context', using the _xs_setctxopt()_ function. See linkxs:xs_setctxopt[3]
+for details on the available context options.
+
+.Multiple contexts
+Multiple 'contexts' may coexist within a single application. Thus, an
+application can use Crossroads directly and at the same time make use of any
+number of additional libraries or components which themselves make use of
+Crossroads.
+
+
+RETURN VALUE
+------------
+The _xs_init()_ function shall return an opaque handle to the initialised
+'context' if successful. Otherwise it shall return NULL and set 'errno' to one
+of the values defined below.
+
+
+ERRORS
+------
+No error values are defined.
+
+
+SEE ALSO
+--------
+linkxs:xs[7]
+linkxs:xs_term[3]
+linkxs:xs_setctxopt[3]
+
+
+AUTHORS
+-------
+The Crossroads documentation was written by Martin Sustrik <sustrik@250bpm.com>
+and Martin Lucina <martin@lucina.net>.

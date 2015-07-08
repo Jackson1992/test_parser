@@ -1,0 +1,175 @@
+'\" t
+.\"     Title: xs_setctxopt
+.\"    Author: [see the "AUTHORS" section]
+.\" Generator: DocBook XSL Stylesheets v1.75.2 <http://docbook.sf.net/>
+.\"      Date: 06/13/2012
+.\"    Manual: Crossroads I/O Manual
+.\"    Source: Crossroads I/O 1.2.0
+.\"  Language: English
+.\"
+.TH "XS_SETCTXOPT" "3" "06/13/2012" "Crossroads I/O 1\&.2\&.0" "Crossroads I/O Manual"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+xs_setctxopt \- set Crossroads context options
+.SH "SYNOPSIS"
+.sp
+\fBint xs_setctxopt (void \fR\fB\fI*context\fR\fR\fB, int \fR\fB\fIoption_name\fR\fR\fB, const void \fR\fB\fI*option_value\fR\fR\fB, size_t \fR\fB\fIoption_len\fR\fR\fB);\fR
+.SH "DESCRIPTION"
+.sp
+The \fIxs_setctxopt()\fR function shall set the option specified by the \fIoption_name\fR argument to the value pointed to by the \fIoption_value\fR argument, for the Crossroads context pointed to by the \fIcontext\fR argument\&. The \fIoption_len\fR argument is the size of the option value in bytes\&.
+.if n \{\
+.sp
+.\}
+.RS 4
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+.br
+.ps +1
+\fBCaution\fR
+.ps -1
+.br
+.sp
+Context options take effect only if set with \fIxs_setctxopt()\fR prior to creating the first socket in a given \fIcontext\fR with \fIxs_socket()\fR\&.
+.sp .5v
+.RE
+.sp
+The following options can be set with the \fIxs_setctxopt()\fR function:
+.SS "XS_MAX_SOCKETS: Set maximum number of sockets"
+.sp
+The \fIXS_MAX_SOCKETS\fR option shall set the maximum nuber of sockets that can be simultaneously active in the given \fIcontext\fR\&.
+.TS
+tab(:);
+lt lt
+lt lt
+lt lt.
+T{
+.sp
+Option value type
+T}:T{
+.sp
+int
+T}
+T{
+.sp
+Option value unit
+T}:T{
+.sp
+sockets
+T}
+T{
+.sp
+Default value
+T}:T{
+.sp
+512
+T}
+.TE
+.sp 1
+.SS "XS_IO_THREADS: Set number of worker threads"
+.sp
+The \fIXS_IO_THREADS\fR option shall set the size of the thread pool created by the given \fIcontext\fR to handle I/O operations\&. The minimum value for this option is 1\&.
+.TS
+tab(:);
+lt lt
+lt lt
+lt lt.
+T{
+.sp
+Option value type
+T}:T{
+.sp
+int
+T}
+T{
+.sp
+Option value unit
+T}:T{
+.sp
+threads
+T}
+T{
+.sp
+Default value
+T}:T{
+.sp
+1
+T}
+.TE
+.sp 1
+.SH "RETURN VALUE"
+.sp
+The \fIxs_setctxopt()\fR function shall return zero if successful\&. Otherwise it shall return \-1 and set \fIerrno\fR to one of the values defined below\&.
+.SH "ERRORS"
+.PP
+\fBEINVAL\fR
+.RS 4
+The requested option
+\fIoption_name\fR
+is unknown, or the requested
+\fIoption_len\fR
+or
+\fIoption_value\fR
+is invalid\&.
+.RE
+.PP
+\fBEFAULT\fR
+.RS 4
+The provided
+\fIcontext\fR
+was invalid\&.
+.RE
+.SH "EXAMPLE"
+.PP
+\fBSetting the number of I/O threads for a context to four.\fR. 
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+void *context = xs_init ();
+int io_threads = 4;
+rc = xs_setctxopt (context, XS_IO_THREADS, &io_threads, sizeof (io_threads));
+assert (rc == 0);
+/* The above call MUST be called before any socket is created in context */
+void *socket = xs_socket (context, XS_PUB);
+.fi
+.if n \{\
+.RE
+.\}
+.sp
+.SH "SEE ALSO"
+.sp
+\fBxs_init\fR(3) \fBxs\fR(7)
+.SH "AUTHORS"
+.sp
+The Crossroads documentation was written by Martin Sustrik <\m[blue]\fBsustrik@250bpm\&.com\fR\m[]\&\s-2\u[1]\d\s+2> and Martin Lucina <\m[blue]\fBmartin@lucina\&.net\fR\m[]\&\s-2\u[2]\d\s+2>\&.
+.SH "NOTES"
+.IP " 1." 4
+sustrik@250bpm.com
+.RS 4
+\%mailto:sustrik@250bpm.com
+.RE
+.IP " 2." 4
+martin@lucina.net
+.RS 4
+\%mailto:martin@lucina.net
+.RE

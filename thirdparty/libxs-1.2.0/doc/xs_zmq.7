@@ -1,0 +1,194 @@
+'\" t
+.\"     Title: xs_zmq
+.\"    Author: [see the "AUTHORS" section]
+.\" Generator: DocBook XSL Stylesheets v1.75.2 <http://docbook.sf.net/>
+.\"      Date: 06/13/2012
+.\"    Manual: Crossroads I/O Manual
+.\"    Source: Crossroads I/O 1.2.0
+.\"  Language: English
+.\"
+.TH "XS_ZMQ" "7" "06/13/2012" "Crossroads I/O 1\&.2\&.0" "Crossroads I/O Manual"
+.\" -----------------------------------------------------------------
+.\" * Define some portability stuff
+.\" -----------------------------------------------------------------
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.\" http://bugs.debian.org/507673
+.\" http://lists.gnu.org/archive/html/groff/2009-02/msg00013.html
+.\" ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.\" -----------------------------------------------------------------
+.\" * set default formatting
+.\" -----------------------------------------------------------------
+.\" disable hyphenation
+.nh
+.\" disable justification (adjust text to left margin only)
+.ad l
+.\" -----------------------------------------------------------------
+.\" * MAIN CONTENT STARTS HERE *
+.\" -----------------------------------------------------------------
+.SH "NAME"
+xs_zmq \- Crossroads I/O ZeroMQ compatibility library
+.SH "SYNOPSIS"
+.sp
+\fB#include <zmq\&.h>\fR
+.sp
+\fBcc\fR [\fIflags\fR] \fIfiles\fR \fB\-lzmq\fR [\fIlibraries\fR]
+.SH "DESCRIPTION"
+.sp
+This \fIlibzmq\fR compatibility library is provided by the Crossroads I/O project as a transitional drop\-in replacement for existing applications and language bindings written for the ZeroMQ library\&.
+.sp
+The intent is to ease transition of existing ZeroMQ applications and language bindings to Crossroads I/O, thus this feature will not be maintained indefinitely and developers are strongly encouraged to migrate their applications to native \fIlibxs\fR interfaces\&.
+.sp
+\fIlibzmq\fR interfaces provided emulate those provided by ZeroMQ release 2\&.1\&.11, and binary compatibility is provided for ABI version 1\&.0\&.0\&.
+.sp
+Existing applications can use these interfaces as a drop\-in replacement for the ZeroMQ\-provided \fIlibzmq\fR by installing the Crossroads version of this library in its place\&. Applications can also be recompiled against this library with no code or build system changes\&.
+.if n \{\
+.sp
+.\}
+.RS 4
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+.br
+.ps +1
+\fBImportant\fR
+.ps -1
+.br
+.sp
+The \fIlibzmq\fR compatibility library is an optional component of Crossroads I/O, and is only built and installed if your copy of the Crossroads library was configured with \-\-enable\-libzmq at build time\&.
+.sp .5v
+.RE
+.SH "CONSTANTS"
+.sp
+All constants defined by the ZeroMQ 2\&.1\&.11 version of \fB<zmq\&.h>\fR are also defined in the Crossroads version\&.
+.SH "INTERFACES"
+.SS "Context"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBvoid *zmq_init (int \fR\fB\fIio_threads\fR\fR\fB);\fR
+\fBint zmq_term (void \fR\fB\fI*context\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Sockets"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBvoid *zmq_socket (void \fR\fB\fI*context\fR\fR\fB, int \fR\fB\fItype\fR\fR\fB);\fR
+\fBint zmq_close (void \fR\fB\fI*socket\fR\fR\fB);\fR
+\fBint zmq_connect (void \fR\fB\fI*socket\fR\fR\fB, const char \fR\fB\fI*endpoint\fR\fR\fB);\fR
+\fBint zmq_bind (void \fR\fB\fI*socket\fR\fR\fB, const char \fR\fB\fI*endpoint\fR\fR\fB);\fR
+\fBint zmq_setsockopt (void \fR\fB\fI*socket\fR\fR\fB, int \fR\fB\fIoption_name\fR\fR\fB, const void \fR\fB\fI*option_value\fR\fR\fB, size_t \fR\fB\fIoption_len\fR\fR\fB);\fR
+\fBint zmq_getsockopt (void \fR\fB\fI*socket\fR\fR\fB, int \fR\fB\fIoption_name\fR\fR\fB, void \fR\fB\fI*option_value\fR\fR\fB, size_t \fR\fB\fI*option_len\fR\fR\fB);\fR
+\fBint zmq_poll (zmq_pollitem_t \fR\fB\fI*items\fR\fR\fB, int \fR\fB\fInitems\fR\fR\fB, long \fR\fB\fItimeout\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Messages"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBint zmq_msg_init (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB);\fR
+\fBint zmq_msg_init_size (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB, size_t \fR\fB\fIsize\fR\fR\fB);\fR
+\fBint zmq_msg_init_data (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB, void \fR\fB\fI*data\fR\fR\fB, size_t \fR\fB\fIsize\fR\fR\fB, zmq_free_fn \fR\fB\fI*ffn\fR\fR\fB, void \fR\fB\fI*hint\fR\fR\fB);\fR
+\fBsize_t zmq_msg_size (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB);\fR
+\fBvoid *zmq_msg_data (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB);\fR
+\fBint zmq_msg_close (zmq_msg_t \fR\fB\fI*msg\fR\fR\fB);\fR
+\fBint zmq_msg_copy (zmq_msg_t \fR\fB\fI*dest\fR\fR\fB, zmq_msg_t \fR\fB\fI*src\fR\fR\fB);\fR
+\fBint zmq_msg_move (zmq_msg_t \fR\fB\fI*dest\fR\fR\fB, zmq_msg_t \fR\fB\fI*src\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Sending and receiving"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBint zmq_send (void \fR\fB\fI*socket\fR\fR\fB, zmq_msg_t \fR\fB\fI*msg\fR\fR\fB, int \fR\fB\fIflags\fR\fR\fB);\fR
+\fBint zmq_recv (void \fR\fB\fI*socket\fR\fR\fB, zmq_msg_t \fR\fB\fI*msg\fR\fR\fB, int \fR\fB\fIflags\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Devices"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBint zmq_device (int \fR\fB\fIdevice\fR\fR\fB, const void \fR\fB\fI*frontend\fR\fR\fB, const void \fR\fB\fI*backend\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Error handling"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBint zmq_errno (void);\fR
+\fBconst char *zmq_strerror (int \fR\fB\fIerrnum\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.SS "Version detection"
+.sp
+.if n \{\
+.RS 4
+.\}
+.nf
+\fBvoid zmq_version (int \fR\fB\fI*major\fR\fR\fB, int \fR\fB\fI*minor\fR\fR\fB, int \fR\fB\fI*patch\fR\fR\fB);\fR
+.fi
+.if n \{\
+.RE
+.\}
+.if n \{\
+.sp
+.\}
+.RS 4
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+.br
+.ps +1
+\fBNote\fR
+.ps -1
+.br
+.sp
+The version numbers returned by this function are the emulated ZeroMQ API version, i\&.e\&. 2\&.1\&.11\&.
+.sp .5v
+.RE
+.SH "COPYING"
+.sp
+Free use of Crossroads library is granted under the terms of the GNU Lesser General Public License (LGPL)\&. For details see the files COPYING and COPYING\&.LESSER included with the Crossroads distribution\&.
+.SH "SEE ALSO"
+.sp
+\fBxs\fR(7)
+.SH "AUTHORS"
+.sp
+The Crossroads documentation was written by Martin Sustrik <\m[blue]\fBsustrik@250bpm\&.com\fR\m[]\&\s-2\u[1]\d\s+2> and Martin Lucina <\m[blue]\fBmartin@lucina\&.net\fR\m[]\&\s-2\u[2]\d\s+2>\&.
+.SH "NOTES"
+.IP " 1." 4
+sustrik@250bpm.com
+.RS 4
+\%mailto:sustrik@250bpm.com
+.RE
+.IP " 2." 4
+martin@lucina.net
+.RS 4
+\%mailto:martin@lucina.net
+.RE
