@@ -6,11 +6,11 @@ Default
 .settings
 Config.cpp
 Debug.h
-install/
+
 autom4te.cache/
 config.guess
 config.status
-config.sub
+
 depcomp
 
 libtool
