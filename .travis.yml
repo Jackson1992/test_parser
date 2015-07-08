@@ -24,5 +24,4 @@ install:
 
 script:
  - $CXX --version
- - cd ~
- - ./~bashrc
+ - vi /ect/profile
