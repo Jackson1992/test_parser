@@ -25,7 +25,10 @@ install:
   - sudo apt-get install numactl
   - pwd
   - cd ./thirdparty/libxs-1.2.0
-  - ./configure && make check
+  - pwd
+  - ls -la
+  - ./configure
+  - make check -j4
   - sudo make install && sudo idconfig
 
 
