@@ -20,6 +20,7 @@ install:
   - sudo apt-cache search boost
   - sudo apt-get install libboost-dev
   - java -version
+  - sudo apt-cache search numa
 
 script:
  - $CXX --version
