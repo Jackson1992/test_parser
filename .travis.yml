@@ -23,7 +23,11 @@ install:
   - sudo apt-get install libnuma-dev
   - sudo apt-get install libnuma1
   - sudo apt-get install numactl
-numactl: NUMA scheduling and memory placement tool
+  - pwd
+  - cd ./thirdpaty/libxs-1.2.0
+  - ./configure && make check
+  - sudo make install && sudo idconfig
+
 
 script:
  - $CXX --version
