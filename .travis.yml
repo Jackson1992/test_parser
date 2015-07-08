@@ -27,9 +27,10 @@ install:
   - cd ./thirdparty/libxs-1.2.0
   - pwd
   - ls -la
+  - chmod 777 configure
   - ./configure
   - make check -j4
-  - sudo make install && sudo idconfig
+  - sudo make install && sudo Ldconfig
 
 
 script:
