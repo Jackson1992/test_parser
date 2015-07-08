@@ -21,6 +21,7 @@ install:
   - sudo apt-get install libboost-dev
   - java -version
   - sudo apt-cache search numa
+  - sudo apt-get install libnuma-dbg
 
 script:
  - $CXX --version
