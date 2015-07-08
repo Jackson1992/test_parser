@@ -24,4 +24,4 @@ install:
 
 script:
  - $CXX --version
- - cat /ect/profile
+ - cat /etc/profile
