@@ -19,11 +19,8 @@ install:
   - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.4"; fi
   - sudo apt-cache search boost
   - sudo apt-get install libboost-dev
-  - echo $BOOST_HOME
   - java -version
 
 script:
  - $CXX --version
- - g++ --version
- - gcc --versiom
  - cat ~/.bashrc
