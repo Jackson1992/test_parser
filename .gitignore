@@ -12,7 +12,7 @@ config.guess
 config.status
 config.sub
 depcomp
-install-sh
+
 libtool
 
 ltmain.sh
