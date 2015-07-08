@@ -24,4 +24,5 @@ install:
 script:
  - $CXX --version
  - cat ~/.bashrc
+ - cd ..
  - ls -la
