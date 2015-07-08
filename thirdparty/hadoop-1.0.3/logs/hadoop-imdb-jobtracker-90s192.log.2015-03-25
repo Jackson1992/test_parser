@@ -1,0 +1,21 @@
+2015-03-25 15:05:02,902 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-03-25 18:06:23,899 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0014' of user 'casa'
+2015-03-25 18:06:23,900 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0014_conf.xml
+2015-03-25 18:10:23,901 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0015' of user 'casa'
+2015-03-25 18:10:23,902 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0015_conf.xml
+2015-03-25 18:11:23,903 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0016' of user 'casa'
+2015-03-25 18:11:23,903 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0016_conf.xml
+2015-03-25 18:16:23,905 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0017' of user 'casa'
+2015-03-25 18:16:23,905 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0017_conf.xml
+2015-03-25 18:17:23,907 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0018' of user 'casa'
+2015-03-25 18:17:23,907 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0018_conf.xml
+2015-03-25 18:27:23,909 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0019' of user 'casa'
+2015-03-25 18:27:23,910 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0019_conf.xml
+2015-03-25 18:27:23,911 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0020' of user 'casa'
+2015-03-25 18:27:23,911 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0020_conf.xml
+2015-03-25 18:32:23,912 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0021' of user 'casa'
+2015-03-25 18:32:23,913 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0021_conf.xml
+2015-03-25 18:33:23,914 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0022' of user 'casa'
+2015-03-25 18:33:23,914 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0022_conf.xml
+2015-03-25 18:34:23,915 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0023' of user 'casa'
+2015-03-25 18:34:23,916 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0023_conf.xml

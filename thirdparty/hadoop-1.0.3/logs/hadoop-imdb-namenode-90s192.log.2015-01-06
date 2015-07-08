@@ -1,0 +1,860 @@
+2015-01-06 00:03:48,016 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:03:48,018 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:03:51,856 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 00:08:48,035 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:08:48,036 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:13:21,926 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:13:48,055 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:13:48,055 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:16:56,542 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:18:48,074 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:18:48,074 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:23:48,146 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:23:48,146 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:28:48,165 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:28:48,166 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:29:20,811 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:33:48,181 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:33:48,181 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:35:09,178 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:37:59,750 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:38:48,200 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:38:48,201 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:42:57,343 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 00:43:48,220 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:43:48,220 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:44:39,114 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:48:48,239 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:48:48,239 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:53:48,257 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:53:48,258 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 00:54:17,106 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 00:58:48,276 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 00:58:48,277 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:03:48,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:03:48,296 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:03:51,582 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 01:08:48,314 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:08:48,314 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:13:18,649 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:13:48,332 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:13:48,333 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:16:53,293 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:18:48,352 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:18:48,352 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:23:48,371 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:23:48,371 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:28:48,399 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:28:48,399 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:29:19,200 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:33:48,417 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:33:48,417 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:35:13,596 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:38:01,119 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:38:48,437 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:38:48,437 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:42:55,772 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 1 msecs
+2015-01-06 01:43:48,456 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:43:48,456 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:44:40,520 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:48:48,475 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:48:48,475 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:53:48,493 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:53:48,494 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 01:54:12,514 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 01:58:48,512 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 01:58:48,512 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:03:48,583 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:03:48,583 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:03:52,990 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 02:08:48,601 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:08:48,601 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:13:20,060 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 02:13:48,619 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:13:48,619 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:16:57,730 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:18:48,637 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:18:48,637 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:23:48,656 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:23:48,656 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:28:48,674 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:28:48,675 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:29:17,347 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:33:48,693 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:33:48,693 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:35:11,776 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:37:59,249 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:38:48,711 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:38:48,711 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:42:59,963 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 02:43:48,729 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:43:48,729 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:44:38,689 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:48:48,747 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:48:48,747 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:53:48,765 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:53:48,765 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 02:54:16,686 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 02:58:48,784 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 02:58:48,784 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:03:48,802 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:03:48,802 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:03:54,163 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 03:08:48,820 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:08:48,820 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:13:21,228 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:13:48,838 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:13:48,839 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:16:55,927 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:18:48,857 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:18:48,857 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:23:48,876 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:23:48,876 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:28:48,903 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:28:48,903 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:29:18,497 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:33:48,921 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:33:48,921 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:35:09,957 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:37:57,380 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:38:48,984 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:38:48,984 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:42:58,152 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 03:43:49,002 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:43:49,002 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:44:42,856 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:48:49,020 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:48:49,021 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:53:49,039 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:53:49,039 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 03:54:11,856 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 03:58:49,058 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 03:58:49,058 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:03:49,076 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:03:49,077 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:03:55,336 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 04:08:49,104 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:08:49,104 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:13:22,399 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:13:49,122 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:13:49,122 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:16:54,122 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:18:49,141 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:18:49,142 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:23:49,162 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:23:49,163 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:28:49,181 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:28:49,181 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:29:16,647 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:33:49,199 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:33:49,199 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:35:11,140 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:37:55,511 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:38:49,217 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:38:49,218 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:42:56,342 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 04:43:49,236 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:43:49,236 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:44:41,024 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:48:49,254 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:48:49,254 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:53:49,272 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:53:49,273 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 04:54:13,025 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 04:58:49,291 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 04:58:49,291 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:03:49,309 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:03:49,310 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:03:53,510 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 05:08:49,328 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:08:49,328 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:13:20,568 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:13:49,393 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:13:49,393 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:16:55,320 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:18:49,411 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:18:49,412 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:23:49,430 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:23:49,430 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:28:49,448 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:28:49,448 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:29:20,798 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:33:49,466 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:33:49,466 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:35:09,319 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:37:59,641 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:38:49,484 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:38:49,484 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:42:57,530 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 05:43:49,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:43:49,503 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:44:42,193 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 05:48:49,522 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:48:49,522 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:53:49,540 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:53:49,540 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 05:54:17,197 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 05:58:49,558 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 05:58:49,558 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:03:49,575 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:03:49,576 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:03:54,680 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 06:08:49,593 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:08:49,593 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:13:21,739 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:13:49,611 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:13:49,611 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:16:56,515 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:18:49,629 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:18:49,629 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:23:49,646 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:23:49,647 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:28:49,664 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:28:49,665 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:29:15,945 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:33:49,682 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:33:49,683 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:35:13,502 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:37:57,771 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:38:49,701 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:38:49,701 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:42:58,722 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 06:43:49,719 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:43:49,719 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:44:37,360 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 06:48:49,737 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:48:49,737 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:53:49,754 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:53:49,755 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 06:54:15,368 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 06:58:49,772 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 06:58:49,772 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:03:49,790 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:03:49,790 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:03:52,853 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 07:08:49,808 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:08:49,808 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:13:22,911 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:13:49,826 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:13:49,826 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:16:54,711 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:18:49,844 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:18:49,844 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:23:49,862 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:23:49,863 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:28:49,881 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:28:49,881 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:29:20,094 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:33:49,899 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:33:49,899 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:35:11,684 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:37:55,901 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:38:49,918 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:38:49,918 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:42:56,909 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 07:43:49,937 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:43:49,937 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:44:41,529 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:48:49,954 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:48:49,955 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:53:49,972 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:53:49,972 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 07:54:16,539 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 07:58:50,000 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 07:58:50,000 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:03:50,019 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:03:50,019 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:03:51,027 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 08:08:50,037 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:08:50,037 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:13:21,079 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:13:50,055 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:13:50,055 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:16:55,908 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:18:50,119 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:18:50,119 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:23:50,137 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:23:50,138 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:28:50,156 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:28:50,156 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:29:18,244 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:33:50,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:33:50,174 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:35:12,865 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:38:00,033 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:38:50,192 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:38:50,192 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:42:58,100 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 08:43:50,210 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:43:50,210 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:44:42,697 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:48:50,228 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:48:50,228 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:53:50,246 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:53:50,246 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 08:54:14,707 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 08:58:50,264 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 08:58:50,264 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:03:50,283 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:03:50,283 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:03:52,198 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 09:08:50,301 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:08:50,302 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:13:22,249 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:13:50,319 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:13:50,319 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:16:57,104 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:18:50,337 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:18:50,337 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:23:50,355 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:23:50,355 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:28:50,373 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:28:50,373 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:29:19,392 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:33:50,391 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:33:50,391 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:35:08,044 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:37:58,162 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:38:50,409 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:38:50,409 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:42:56,288 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 1 msecs
+2015-01-06 09:43:50,426 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:43:50,426 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:44:40,864 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:48:50,487 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:48:50,487 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:53:50,505 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:53:50,505 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 09:54:15,879 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 09:58:50,525 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 09:58:50,525 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:03:50,543 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:03:50,543 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:03:56,372 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 10:08:50,560 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:08:50,561 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:13:20,419 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:13:50,578 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:13:50,579 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:16:58,300 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 10:18:50,596 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:18:50,596 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:23:50,614 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:23:50,614 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:28:50,631 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:28:50,631 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:29:20,541 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:33:50,649 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:33:50,649 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:35:09,225 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:37:59,292 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:38:50,666 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:38:50,666 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:42:54,478 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 10:43:50,684 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:43:50,684 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:44:39,032 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:48:50,702 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:48:50,703 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:53:50,720 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:53:50,720 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 10:54:17,049 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 10:58:50,738 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 10:58:50,738 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:03:50,755 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:03:50,756 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:03:51,544 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 11:08:50,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:08:50,774 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:13:18,589 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:13:50,791 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:13:50,792 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:16:56,495 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 11:18:50,853 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:18:50,853 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:23:50,871 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:23:50,871 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:28:50,888 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:28:50,889 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:29:15,689 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:33:50,906 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:33:50,907 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:35:13,408 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:38:00,422 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:38:50,924 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:38:50,925 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:42:58,666 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 11:43:50,942 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:43:50,943 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:44:40,201 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:48:50,963 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:48:50,963 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:53:50,981 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:53:50,981 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 11:54:15,217 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 11:58:50,999 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 11:58:50,999 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:03:51,017 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:03:51,017 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:03:52,718 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 12:08:51,035 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:08:51,035 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:13:22,758 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:13:51,053 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:13:51,053 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:16:57,692 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:18:51,071 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:18:51,071 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:23:51,089 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:23:51,090 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:28:51,107 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:28:51,107 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:29:16,841 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:33:51,125 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:33:51,125 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:35:11,589 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:37:55,551 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:38:51,143 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:38:51,143 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:42:59,855 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 12:43:51,205 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:43:51,205 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:44:38,369 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:48:51,222 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:48:51,223 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:53:51,240 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:53:51,240 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 12:54:13,387 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 12:58:51,258 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 12:58:51,258 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:03:50,890 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 13:03:51,276 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:03:51,277 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:08:51,294 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:08:51,294 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:13:20,929 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:13:51,312 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:13:51,312 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:16:52,885 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:18:51,345 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:18:51,345 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:23:51,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:23:51,365 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:28:51,389 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:28:51,389 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:29:14,989 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:33:51,408 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:33:51,408 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:35:12,770 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:37:59,682 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:38:51,427 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:38:51,427 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:42:58,045 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 13:43:51,446 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:43:51,446 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:44:39,538 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 13:48:51,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:48:51,462 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:53:51,490 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:53:51,490 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 13:54:11,558 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 13:58:51,518 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 13:58:51,518 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:03:51,537 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:03:51,537 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:03:55,061 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1, processing time: 0 msecs
+2015-01-06 14:08:51,603 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:08:51,604 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:13:19,098 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:13:51,622 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:13:51,623 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:16:54,094 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.199:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:18:51,649 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:18:51,649 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:23:51,667 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:23:51,667 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:28:51,685 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:28:51,686 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:29:16,138 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 14:33:51,704 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:33:51,704 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:35:07,951 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:37:57,811 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:38:51,722 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:38:51,722 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:42:59,235 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 0, processing time: 1 msecs
+2015-01-06 14:43:01,354 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.11.1.197:50010 to replicate blk_6151273100444564724_1060 to datanode(s) 10.11.1.194:50010
+2015-01-06 14:43:01,834 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Error report from 10.11.1.197:50010: DataNode failed volumes:/home/imdb/hadoop/data/current;
+2015-01-06 14:43:01,834 INFO org.apache.hadoop.net.NetworkTopology: Removing a node: /default-rack/10.11.1.197:50010
+2015-01-06 14:43:01,836 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Error report from 10.11.1.197:50010: Can't send invalid block blk_6151273100444564724_1060
+2015-01-06 14:43:51,741 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:43:51,742 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:44:37,706 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:48:51,524 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: PendingReplicationMonitor timed out block blk_6151273100444564724_1060
+2015-01-06 14:48:51,759 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:48:51,760 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:53:51,778 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:53:51,779 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new
+2015-01-06 14:54:12,729 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 0, processing time: 0 msecs
+2015-01-06 14:58:51,815 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-01-06 14:58:51,815 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Cannot roll edit log, edits.new files already exists in all healthy directories:
+  /home/imdb/hadoop/data1/current/edits.new
+  /home/imdb/hadoop/data2/current/edits.new

@@ -1,0 +1,2 @@
+2015-04-11 10:47:37,515 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-04-11 11:01:41,316 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_90s198:localhost/127.0.0.1:59858'

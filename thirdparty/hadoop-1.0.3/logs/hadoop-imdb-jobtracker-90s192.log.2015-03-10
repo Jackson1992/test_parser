@@ -1,0 +1,27 @@
+2015-03-10 12:57:39,742 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0001' of user 'casa'
+2015-03-10 12:57:39,743 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0001_conf.xml
+2015-03-10 13:03:39,746 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0002' of user 'casa'
+2015-03-10 13:03:39,747 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0002_conf.xml
+2015-03-10 13:10:39,749 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0003' of user 'casa'
+2015-03-10 13:10:39,749 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0003_conf.xml
+2015-03-10 15:04:38,237 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-03-10 15:15:39,770 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0004' of user 'casa'
+2015-03-10 15:15:39,770 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0004_conf.xml
+2015-03-10 15:16:39,771 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0005' of user 'casa'
+2015-03-10 15:16:39,772 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0005_conf.xml
+2015-03-10 15:20:39,774 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0006' of user 'casa'
+2015-03-10 15:20:39,774 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0006_conf.xml
+2015-03-10 15:21:39,776 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0007' of user 'casa'
+2015-03-10 15:21:39,776 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0007_conf.xml
+2015-03-10 15:24:39,778 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0008' of user 'casa'
+2015-03-10 15:24:39,778 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0008_conf.xml
+2015-03-10 15:24:39,779 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0009' of user 'casa'
+2015-03-10 15:24:39,780 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0009_conf.xml
+2015-03-10 15:27:39,781 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0010' of user 'casa'
+2015-03-10 15:27:39,781 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0010_conf.xml
+2015-03-10 15:28:39,783 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0011' of user 'casa'
+2015-03-10 15:28:39,783 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0011_conf.xml
+2015-03-10 15:32:39,785 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0012' of user 'casa'
+2015-03-10 15:32:39,785 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0012_conf.xml
+2015-03-10 15:32:39,787 INFO org.apache.hadoop.mapred.JobTracker: Retired job with id: 'job_201502131503_0013' of user 'casa'
+2015-03-10 15:32:39,787 INFO org.apache.hadoop.mapred.JobHistory: Deleting localized job conf at /home/imdb/tools/hadoop-1.0.3/libexec/../logs/job_201502131503_0013_conf.xml

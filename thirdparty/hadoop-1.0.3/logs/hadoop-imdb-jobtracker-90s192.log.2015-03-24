@@ -1,0 +1,1049 @@
+2015-03-24 10:55:59,947 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_90s195:localhost/127.0.0.1:43867'
+2015-03-24 11:03:46,643 WARN org.apache.hadoop.mapred.JobTracker: Status from unknown Tracker : tracker_90s195:localhost/127.0.0.1:43867
+2015-03-24 11:03:52,171 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s195:localhost/127.0.0.1:51074 to host 90s195
+2015-03-24 15:05:01,361 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-03-24 18:05:55,212 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0014: nMaps=6 nReduces=1 max=-1
+2015-03-24 18:05:55,212 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0014 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:05:55,212 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0014	RESULT=SUCCESS
+2015-03-24 18:05:55,212 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0014
+2015-03-24 18:05:55,213 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0014
+2015-03-24 18:05:55,249 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0014/jobToken
+2015-03-24 18:05:55,255 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0014 = 793579887. Number of splits = 6
+2015-03-24 18:05:55,255 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000000 has split on node:/default-rack/90s190
+2015-03-24 18:05:55,255 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000001 has split on node:/default-rack/90s196
+2015-03-24 18:05:55,255 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000002 has split on node:/default-rack/90s197
+2015-03-24 18:05:55,256 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000003 has split on node:/default-rack/90s191
+2015-03-24 18:05:55,256 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000004 has split on node:/default-rack/90s195
+2015-03-24 18:05:55,256 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0014_m_000005 has split on node:/default-rack/90s194
+2015-03-24 18:05:55,256 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0014 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:05:55,256 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0014 initialized successfully with 6 map tasks and 1 reduce tasks.
+2015-03-24 18:05:55,257 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0014_m_000007_0' to tip task_201502131503_0014_m_000007, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:06:04,268 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0014_m_000007_0' has completed task_201502131503_0014_m_000007 successfully.
+2015-03-24 18:06:04,270 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000005_0' to tip task_201502131503_0014_m_000005, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:06:04,270 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0014_m_000005
+2015-03-24 18:06:04,519 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000000_0' to tip task_201502131503_0014_m_000000, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:06:04,519 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0014_m_000000
+2015-03-24 18:06:05,011 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000001_0' to tip task_201502131503_0014_m_000001, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:06:05,011 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0014_m_000001
+2015-03-24 18:06:05,364 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000002_0' to tip task_201502131503_0014_m_000002, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:06:05,365 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0014_m_000002
+2015-03-24 18:06:05,733 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000003_0' to tip task_201502131503_0014_m_000003, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:06:05,734 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0014_m_000003
+2015-03-24 18:06:06,241 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0014_m_000004_0' to tip task_201502131503_0014_m_000004, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:06:06,241 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0014_m_000004
+2015-03-24 18:06:08,446 INFO org.apache.hadoop.mapred.JobTracker: Killing job job_201502131503_0014
+2015-03-24 18:06:08,447 INFO org.apache.hadoop.mapred.JobInProgress: Killing job 'job_201502131503_0014'
+2015-03-24 18:06:08,737 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0014_m_000006_0' to tip task_201502131503_0014_m_000006, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:06:10,277 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0014_m_000005_0' has completed task_201502131503_0014_m_000005 successfully.
+2015-03-24 18:06:11,744 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000003_0'
+2015-03-24 18:06:12,247 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000004_0'
+2015-03-24 18:06:13,528 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000000_0'
+2015-03-24 18:06:14,021 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000001_0'
+2015-03-24 18:06:14,374 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000002_0'
+2015-03-24 18:06:14,747 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0014_m_000006_0' has completed task_201502131503_0014_m_000006 successfully.
+2015-03-24 18:06:14,748 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0014,submitTime=1427191555183,launchTime=1427191555256,firstMapTaskLaunchTime=1427191564269,firstJobSetupTaskLaunchTime=1427191555257,firstJobCleanupTaskLaunchTime=1427191568737,finishTime=1427191574748,numMaps=6,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=KILLED,mapSlotSeconds=29,reduceSlotsSeconds=0,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from left08(Stage-1)
+2015-03-24 18:06:14,750 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE subfolder at file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:06:14,750 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000006_0'
+2015-03-24 18:06:14,753 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0014_1427191555183_casa_select+count%28*%29+from+left08%28Stage-1%29 to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:06:14,760 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0014_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:06:15,634 INFO org.apache.hadoop.mapred.JobTracker: Killing job job_201502131503_0014
+2015-03-24 18:06:16,283 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000005_0'
+2015-03-24 18:06:16,283 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0014_m_000007_0'
+2015-03-24 18:07:11,988 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0015: nMaps=19 nReduces=4 max=-1
+2015-03-24 18:07:11,988 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0015 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:07:11,988 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0015	RESULT=SUCCESS
+2015-03-24 18:07:11,988 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0015
+2015-03-24 18:07:11,989 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0015
+2015-03-24 18:07:12,025 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0015/jobToken
+2015-03-24 18:07:12,035 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0015 = 3174327064. Number of splits = 19
+2015-03-24 18:07:12,035 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:07:12,035 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000001 has split on node:/default-rack/90s190
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000002 has split on node:/default-rack/90s196
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000003 has split on node:/default-rack/90s197
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000004 has split on node:/default-rack/90s191
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000005 has split on node:/default-rack/90s191
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000006 has split on node:/default-rack/90s190
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000007 has split on node:/default-rack/90s196
+2015-03-24 18:07:12,036 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000008 has split on node:/default-rack/90s191
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000009 has split on node:/default-rack/90s190
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000010 has split on node:/default-rack/90s196
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000011 has split on node:/default-rack/90s190
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000012 has split on node:/default-rack/90s197
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000013 has split on node:/default-rack/90s195
+2015-03-24 18:07:12,037 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000014 has split on node:/default-rack/90s196
+2015-03-24 18:07:12,038 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000015 has split on node:/default-rack/90s197
+2015-03-24 18:07:12,038 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000016 has split on node:/default-rack/90s194
+2015-03-24 18:07:12,038 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000017 has split on node:/default-rack/90s195
+2015-03-24 18:07:12,038 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0015_m_000018 has split on node:/default-rack/90s191
+2015-03-24 18:07:12,038 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0015 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:07:12,039 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0015 initialized successfully with 19 map tasks and 4 reduce tasks.
+2015-03-24 18:07:12,294 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0015_m_000020_0' to tip task_201502131503_0015_m_000020, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:07:21,304 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000020_0' has completed task_201502131503_0015_m_000020 successfully.
+2015-03-24 18:07:21,306 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000000_0' to tip task_201502131503_0015_m_000000, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:07:21,306 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000000
+2015-03-24 18:07:21,307 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000001_0' to tip task_201502131503_0015_m_000001, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:07:21,307 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000001
+2015-03-24 18:07:21,307 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000002_0' to tip task_201502131503_0015_m_000002, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:07:21,307 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000002
+2015-03-24 18:07:22,084 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000006_0' to tip task_201502131503_0015_m_000006, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:07:22,084 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000006
+2015-03-24 18:07:22,085 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000009_0' to tip task_201502131503_0015_m_000009, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:07:22,085 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000009
+2015-03-24 18:07:22,086 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000011_0' to tip task_201502131503_0015_m_000011, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:07:22,086 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000011
+2015-03-24 18:07:22,243 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000013_0' to tip task_201502131503_0015_m_000013, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:07:22,243 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000013
+2015-03-24 18:07:22,244 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000017_0' to tip task_201502131503_0015_m_000017, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:07:22,244 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000017
+2015-03-24 18:07:22,245 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000003_0' to tip task_201502131503_0015_m_000003, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:07:22,245 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000003
+2015-03-24 18:07:22,335 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000016_0' to tip task_201502131503_0015_m_000016, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:07:22,335 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000016
+2015-03-24 18:07:22,336 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000004_0' to tip task_201502131503_0015_m_000004, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:07:22,336 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000004
+2015-03-24 18:07:22,336 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000005_0' to tip task_201502131503_0015_m_000005, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:07:22,336 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000005
+2015-03-24 18:07:22,584 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000007_0' to tip task_201502131503_0015_m_000007, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:07:22,585 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000007
+2015-03-24 18:07:22,585 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000008_0' to tip task_201502131503_0015_m_000008, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:07:22,585 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000008
+2015-03-24 18:07:22,585 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000010_0' to tip task_201502131503_0015_m_000010, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:07:22,586 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000010
+2015-03-24 18:07:23,074 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000014_0' to tip task_201502131503_0015_m_000014, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:07:23,074 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0015_m_000014
+2015-03-24 18:07:23,074 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000012_0' to tip task_201502131503_0015_m_000012, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:07:23,075 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000012
+2015-03-24 18:07:23,075 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000015_0' to tip task_201502131503_0015_m_000015, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:07:23,075 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000015
+2015-03-24 18:07:23,428 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000018_0' to tip task_201502131503_0015_m_000018, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:07:23,429 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000018
+2015-03-24 18:07:44,448 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000018_0' has completed task_201502131503_0015_m_000018 successfully.
+2015-03-24 18:07:44,449 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000000_0' to tip task_201502131503_0015_r_000000, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:07:44,825 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000001_0' to tip task_201502131503_0015_r_000001, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:07:45,329 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000002_0' to tip task_201502131503_0015_r_000002, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:07:46,107 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000003_0' to tip task_201502131503_0015_r_000003, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:07:46,265 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000013_0' has completed task_201502131503_0015_m_000013 successfully.
+2015-03-24 18:07:46,267 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000017_0' has completed task_201502131503_0015_m_000017 successfully.
+2015-03-24 18:07:47,097 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000014_0' has completed task_201502131503_0015_m_000014 successfully.
+2015-03-24 18:07:47,098 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000012_0' has completed task_201502131503_0015_m_000012 successfully.
+2015-03-24 18:07:47,099 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000015_0' has completed task_201502131503_0015_m_000015 successfully.
+2015-03-24 18:07:49,111 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000011_0' has completed task_201502131503_0015_m_000011 successfully.
+2015-03-24 18:07:49,359 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000016_0' has completed task_201502131503_0015_m_000016 successfully.
+2015-03-24 18:08:01,619 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000010_0' has completed task_201502131503_0015_m_000010 successfully.
+2015-03-24 18:08:22,636 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000008_0' has completed task_201502131503_0015_m_000008 successfully.
+2015-03-24 18:08:22,637 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000009_1' to tip task_201502131503_0015_m_000009, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:08:22,637 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000009
+2015-03-24 18:08:25,148 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000009_0' has completed task_201502131503_0015_m_000009 successfully.
+2015-03-24 18:08:28,644 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000009_1'
+2015-03-24 18:08:28,644 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0015_m_000009_1' to tip task_201502131503_0015_m_000009, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:08:34,651 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000009_1'
+2015-03-24 18:08:37,304 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000003_0' has completed task_201502131503_0015_m_000003 successfully.
+2015-03-24 18:08:37,400 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000005_0' has completed task_201502131503_0015_m_000005 successfully.
+2015-03-24 18:08:40,164 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000006_0' has completed task_201502131503_0015_m_000006 successfully.
+2015-03-24 18:08:40,404 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000004_0' has completed task_201502131503_0015_m_000004 successfully.
+2015-03-24 18:08:42,377 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000000_0' has completed task_201502131503_0015_m_000000 successfully.
+2015-03-24 18:08:42,378 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000001_0' has completed task_201502131503_0015_m_000001 successfully.
+2015-03-24 18:08:43,168 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000002_1' to tip task_201502131503_0015_m_000002, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:08:43,169 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000002
+2015-03-24 18:08:43,311 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0015_m_000007_1' to tip task_201502131503_0015_m_000007, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:08:43,311 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0015_m_000007
+2015-03-24 18:08:43,660 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000007_0' has completed task_201502131503_0015_m_000007 successfully.
+2015-03-24 18:08:48,385 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000002_0' has completed task_201502131503_0015_m_000002 successfully.
+2015-03-24 18:08:49,318 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000007_1'
+2015-03-24 18:08:49,319 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0015_m_000007_1' to tip task_201502131503_0015_m_000007, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:08:52,177 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000002_1'
+2015-03-24 18:08:52,178 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0015_m_000002_1' to tip task_201502131503_0015_m_000002, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:08:55,326 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000007_1'
+2015-03-24 18:08:58,184 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000002_1'
+2015-03-24 18:09:43,364 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000000_1' to tip task_201502131503_0015_r_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:09:43,460 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0015_r_000001_1' to tip task_201502131503_0015_r_000001, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:10:06,460 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_r_000002_0' has completed task_201502131503_0015_r_000002 successfully.
+2015-03-24 18:10:10,237 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_r_000003_0' has completed task_201502131503_0015_r_000003 successfully.
+2015-03-24 18:10:14,964 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_r_000001_0' has completed task_201502131503_0015_r_000001 successfully.
+2015-03-24 18:10:17,581 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_r_000000_0' has completed task_201502131503_0015_r_000000 successfully.
+2015-03-24 18:10:17,583 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0015_m_000019_0' to tip task_201502131503_0015_m_000019, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:10:19,491 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000001_1'
+2015-03-24 18:10:19,491 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0015_r_000001_1' to tip task_201502131503_0015_r_000001, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:10:22,399 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000000_1'
+2015-03-24 18:10:22,400 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0015_r_000000_1' to tip task_201502131503_0015_r_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:10:23,590 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0015_m_000019_0' has completed task_201502131503_0015_m_000019 successfully.
+2015-03-24 18:10:23,591 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0015 has completed successfully.
+2015-03-24 18:10:23,591 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0015,submitTime=1427191631954,launchTime=1427191632038,firstMapTaskLaunchTime=1427191641306,firstReduceTaskLaunchTime=1427191664449,firstJobSetupTaskLaunchTime=1427191632293,firstJobCleanupTaskLaunchTime=1427191817583,finishTime=1427191823591,numMaps=19,numSlotsPerMap=1,numReduces=4,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=949,reduceSlotsSeconds=578,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left16.a\=right16.a(Stage-1)
+2015-03-24 18:10:23,595 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0015_1427191631954_casa_select+count%28*%29+from+le...left16.a%3Dright16.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:10:23,595 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000018_0'
+2015-03-24 18:10:23,596 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000019_0'
+2015-03-24 18:10:23,596 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000000_0'
+2015-03-24 18:10:23,607 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0015_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:10:23,973 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000001_0'
+2015-03-24 18:10:24,457 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0016: nMaps=4 nReduces=1 max=-1
+2015-03-24 18:10:24,457 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0016 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:10:24,457 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0016	RESULT=SUCCESS
+2015-03-24 18:10:24,457 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0016
+2015-03-24 18:10:24,458 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0016
+2015-03-24 18:10:24,477 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000000_0'
+2015-03-24 18:10:24,477 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000001_0'
+2015-03-24 18:10:24,477 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000002_0'
+2015-03-24 18:10:24,477 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000020_0'
+2015-03-24 18:10:24,478 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000002_0'
+2015-03-24 18:10:24,491 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0016/jobToken
+2015-03-24 18:10:24,497 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0016 = 472. Number of splits = 4
+2015-03-24 18:10:24,497 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0016_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:10:24,497 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0016_m_000001 has split on node:/default-rack/90s190
+2015-03-24 18:10:24,498 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0016_m_000002 has split on node:/default-rack/90s196
+2015-03-24 18:10:24,498 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0016_m_000003 has split on node:/default-rack/90s197
+2015-03-24 18:10:24,498 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0016 LOCALITY_WAIT_FACTOR=0.5
+2015-03-24 18:10:24,498 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0016 initialized successfully with 4 map tasks and 1 reduce tasks.
+2015-03-24 18:10:25,252 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0016_m_000005_0' to tip task_201502131503_0016_m_000005, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:10:25,254 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000006_0'
+2015-03-24 18:10:25,254 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000009_0'
+2015-03-24 18:10:25,254 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000011_0'
+2015-03-24 18:10:25,254 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000003_0'
+2015-03-24 18:10:25,405 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000003_0'
+2015-03-24 18:10:25,405 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000013_0'
+2015-03-24 18:10:25,405 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000017_0'
+2015-03-24 18:10:25,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000004_0'
+2015-03-24 18:10:25,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000005_0'
+2015-03-24 18:10:25,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000016_0'
+2015-03-24 18:10:25,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000001_1'
+2015-03-24 18:10:25,739 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000007_0'
+2015-03-24 18:10:25,740 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000008_0'
+2015-03-24 18:10:25,740 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000010_0'
+2015-03-24 18:10:26,231 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000012_0'
+2015-03-24 18:10:26,231 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000014_0'
+2015-03-24 18:10:26,231 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_m_000015_0'
+2015-03-24 18:10:28,409 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0015_r_000000_1'
+2015-03-24 18:10:34,263 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000005_0' has completed task_201502131503_0016_m_000005 successfully.
+2015-03-24 18:10:34,265 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0016_m_000001_0' to tip task_201502131503_0016_m_000001, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:10:34,265 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0016_m_000001
+2015-03-24 18:10:34,414 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0016_m_000000_0' to tip task_201502131503_0016_m_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:10:34,414 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0016_m_000000
+2015-03-24 18:10:34,507 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0016_m_000002_0' to tip task_201502131503_0016_m_000002, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:10:34,508 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0016_m_000002
+2015-03-24 18:10:34,748 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0016_m_000003_0' to tip task_201502131503_0016_m_000003, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:10:34,748 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0016_m_000003
+2015-03-24 18:10:40,272 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000001_0' has completed task_201502131503_0016_m_000001 successfully.
+2015-03-24 18:10:40,274 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0016_r_000000_0' to tip task_201502131503_0016_r_000000, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:10:43,423 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000000_0' has completed task_201502131503_0016_m_000000 successfully.
+2015-03-24 18:10:43,517 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000002_0' has completed task_201502131503_0016_m_000002 successfully.
+2015-03-24 18:10:43,757 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000003_0' has completed task_201502131503_0016_m_000003 successfully.
+2015-03-24 18:10:52,288 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_r_000000_0' has completed task_201502131503_0016_r_000000 successfully.
+2015-03-24 18:10:52,289 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0016_m_000004_0' to tip task_201502131503_0016_m_000004, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:10:58,297 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0016_m_000004_0' has completed task_201502131503_0016_m_000004 successfully.
+2015-03-24 18:10:58,298 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0016 has completed successfully.
+2015-03-24 18:10:58,298 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0016,submitTime=1427191824424,launchTime=1427191824498,firstMapTaskLaunchTime=1427191834264,firstReduceTaskLaunchTime=1427191840274,firstJobSetupTaskLaunchTime=1427191825252,firstJobCleanupTaskLaunchTime=1427191852289,finishTime=1427191858297,numMaps=4,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=27,reduceSlotsSeconds=10,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left16.a\=right16.a(Stage-2)
+2015-03-24 18:10:58,301 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0016_1427191824424_casa_select+count%28*%29+from+le...left16.a%3Dright16.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:10:58,301 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000001_0'
+2015-03-24 18:10:58,302 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000004_0'
+2015-03-24 18:10:58,302 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000005_0'
+2015-03-24 18:10:58,302 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_r_000000_0'
+2015-03-24 18:10:58,310 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0016_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:10:58,435 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000000_0'
+2015-03-24 18:10:58,531 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000002_0'
+2015-03-24 18:10:58,770 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0016_m_000003_0'
+2015-03-24 18:12:53,667 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0017: nMaps=29 nReduces=8 max=-1
+2015-03-24 18:12:53,667 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0017 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:12:53,667 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0017	RESULT=SUCCESS
+2015-03-24 18:12:53,667 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0017
+2015-03-24 18:12:53,668 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0017
+2015-03-24 18:12:53,701 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0017/jobToken
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0017 = 6348622474. Number of splits = 29
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000001 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000002 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000003 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,714 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000004 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000005 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000006 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000007 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000008 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000009 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000010 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,715 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000011 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000012 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000013 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000014 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000015 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000016 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000017 has split on node:/default-rack/90s197
+2015-03-24 18:12:53,716 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000018 has split on node:/default-rack/90s197
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000019 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000020 has split on node:/default-rack/90s195
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000021 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000022 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000023 has split on node:/default-rack/90s194
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000024 has split on node:/default-rack/90s195
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000025 has split on node:/default-rack/90s191
+2015-03-24 18:12:53,717 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000026 has split on node:/default-rack/90s196
+2015-03-24 18:12:53,718 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000027 has split on node:/default-rack/90s194
+2015-03-24 18:12:53,718 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0017_m_000028 has split on node:/default-rack/90s190
+2015-03-24 18:12:53,718 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0017 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:12:53,718 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0017 initialized successfully with 29 map tasks and 8 reduce tasks.
+2015-03-24 18:12:53,720 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0017_m_000030_0' to tip task_201502131503_0017_m_000030, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:02,731 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000030_0' has completed task_201502131503_0017_m_000030 successfully.
+2015-03-24 18:13:02,732 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000017_0' to tip task_201502131503_0017_m_000017, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:02,733 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000017
+2015-03-24 18:13:02,733 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000018_0' to tip task_201502131503_0017_m_000018, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:02,733 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000018
+2015-03-24 18:13:02,734 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000000_0' to tip task_201502131503_0017_m_000000, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:02,734 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000000
+2015-03-24 18:13:02,734 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000001_0' to tip task_201502131503_0017_m_000001, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:02,734 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000001
+2015-03-24 18:13:03,099 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000002_0' to tip task_201502131503_0017_m_000002, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:13:03,100 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000002
+2015-03-24 18:13:03,100 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000003_0' to tip task_201502131503_0017_m_000003, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:13:03,100 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000003
+2015-03-24 18:13:03,100 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000009_0' to tip task_201502131503_0017_m_000009, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:13:03,101 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000009
+2015-03-24 18:13:03,101 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000010_0' to tip task_201502131503_0017_m_000010, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:13:03,101 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000010
+2015-03-24 18:13:03,604 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000004_0' to tip task_201502131503_0017_m_000004, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:13:03,604 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000004
+2015-03-24 18:13:03,604 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000005_0' to tip task_201502131503_0017_m_000005, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:13:03,604 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000005
+2015-03-24 18:13:03,605 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000006_0' to tip task_201502131503_0017_m_000006, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:13:03,605 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000006
+2015-03-24 18:13:03,605 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000007_0' to tip task_201502131503_0017_m_000007, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:13:03,605 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000007
+2015-03-24 18:13:04,422 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000012_0' to tip task_201502131503_0017_m_000012, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:13:04,422 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000012
+2015-03-24 18:13:04,423 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000013_0' to tip task_201502131503_0017_m_000013, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:13:04,423 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000013
+2015-03-24 18:13:04,423 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000019_0' to tip task_201502131503_0017_m_000019, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:13:04,423 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000019
+2015-03-24 18:13:04,424 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000028_0' to tip task_201502131503_0017_m_000028, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:13:04,424 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000028
+2015-03-24 18:13:04,529 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000020_0' to tip task_201502131503_0017_m_000020, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:13:04,529 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000020
+2015-03-24 18:13:04,530 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000024_0' to tip task_201502131503_0017_m_000024, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:13:04,530 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000024
+2015-03-24 18:13:04,530 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000008_0' to tip task_201502131503_0017_m_000008, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:13:04,531 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000008
+2015-03-24 18:13:04,531 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000011_0' to tip task_201502131503_0017_m_000011, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:13:04,531 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000011
+2015-03-24 18:13:04,632 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000023_0' to tip task_201502131503_0017_m_000023, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:13:04,632 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000023
+2015-03-24 18:13:04,632 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000027_0' to tip task_201502131503_0017_m_000027, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:13:04,633 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000027
+2015-03-24 18:13:04,633 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000014_0' to tip task_201502131503_0017_m_000014, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:13:04,633 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000014
+2015-03-24 18:13:04,634 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000015_0' to tip task_201502131503_0017_m_000015, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:13:04,634 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000015
+2015-03-24 18:13:04,872 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000016_0' to tip task_201502131503_0017_m_000016, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:13:04,872 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000016
+2015-03-24 18:13:04,872 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000021_0' to tip task_201502131503_0017_m_000021, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:13:04,873 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000021
+2015-03-24 18:13:04,873 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000022_0' to tip task_201502131503_0017_m_000022, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:13:04,873 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000022
+2015-03-24 18:13:04,873 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000025_0' to tip task_201502131503_0017_m_000025, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:13:04,873 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000025
+2015-03-24 18:13:05,355 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000026_0' to tip task_201502131503_0017_m_000026, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:13:05,356 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0017_m_000026
+2015-03-24 18:13:19,440 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000028_0' has completed task_201502131503_0017_m_000028 successfully.
+2015-03-24 18:13:46,673 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000027_0' has completed task_201502131503_0017_m_000027 successfully.
+2015-03-24 18:13:46,674 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000000_0' to tip task_201502131503_0017_r_000000, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:13:46,913 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000021_0' has completed task_201502131503_0017_m_000021 successfully.
+2015-03-24 18:13:46,914 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000001_0' to tip task_201502131503_0017_r_000001, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:13:47,390 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000002_0' to tip task_201502131503_0017_r_000002, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:13:47,773 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000003_0' to tip task_201502131503_0017_r_000003, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:13:48,142 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000004_0' to tip task_201502131503_0017_r_000004, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:13:48,644 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000005_0' to tip task_201502131503_0017_r_000005, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:13:49,464 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000006_0' to tip task_201502131503_0017_r_000006, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:13:49,566 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000024_0' has completed task_201502131503_0017_m_000024 successfully.
+2015-03-24 18:13:49,568 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0017_r_000007_0' to tip task_201502131503_0017_r_000007, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:13:49,678 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000023_0' has completed task_201502131503_0017_m_000023 successfully.
+2015-03-24 18:13:49,917 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000022_0' has completed task_201502131503_0017_m_000022 successfully.
+2015-03-24 18:13:49,918 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000025_0' has completed task_201502131503_0017_m_000025 successfully.
+2015-03-24 18:13:50,394 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000026_0' has completed task_201502131503_0017_m_000026 successfully.
+2015-03-24 18:13:59,785 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000018_0' has completed task_201502131503_0017_m_000018 successfully.
+2015-03-24 18:14:05,793 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000017_0' has completed task_201502131503_0017_m_000017 successfully.
+2015-03-24 18:14:07,483 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000019_0' has completed task_201502131503_0017_m_000019 successfully.
+2015-03-24 18:14:07,586 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000020_0' has completed task_201502131503_0017_m_000020 successfully.
+2015-03-24 18:14:20,820 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000000_0' has completed task_201502131503_0017_m_000000 successfully.
+2015-03-24 18:14:21,670 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000004_0' has completed task_201502131503_0017_m_000004 successfully.
+2015-03-24 18:14:22,497 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000012_0' has completed task_201502131503_0017_m_000012 successfully.
+2015-03-24 18:14:22,709 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000014_0' has completed task_201502131503_0017_m_000014 successfully.
+2015-03-24 18:14:23,825 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000001_0' has completed task_201502131503_0017_m_000001 successfully.
+2015-03-24 18:14:24,172 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000002_0' has completed task_201502131503_0017_m_000002 successfully.
+2015-03-24 18:14:24,173 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000010_0' has completed task_201502131503_0017_m_000010 successfully.
+2015-03-24 18:14:25,603 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000008_0' has completed task_201502131503_0017_m_000008 successfully.
+2015-03-24 18:14:25,604 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000011_0' has completed task_201502131503_0017_m_000011 successfully.
+2015-03-24 18:14:25,713 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000015_0' has completed task_201502131503_0017_m_000015 successfully.
+2015-03-24 18:14:27,177 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000003_0' has completed task_201502131503_0017_m_000003 successfully.
+2015-03-24 18:14:27,677 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000005_0' has completed task_201502131503_0017_m_000005 successfully.
+2015-03-24 18:14:27,678 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000006_0' has completed task_201502131503_0017_m_000006 successfully.
+2015-03-24 18:14:27,679 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000007_0' has completed task_201502131503_0017_m_000007 successfully.
+2015-03-24 18:14:27,680 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000009_1' to tip task_201502131503_0017_m_000009, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:14:27,681 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000009
+2015-03-24 18:14:28,505 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000013_0' has completed task_201502131503_0017_m_000013 successfully.
+2015-03-24 18:14:28,507 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0017_m_000016_1' to tip task_201502131503_0017_m_000016, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:14:28,507 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0017_m_000016
+2015-03-24 18:14:30,181 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000009_0' has completed task_201502131503_0017_m_000009 successfully.
+2015-03-24 18:14:31,955 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000016_0' has completed task_201502131503_0017_m_000016 successfully.
+2015-03-24 18:14:33,687 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000009_1'
+2015-03-24 18:14:33,688 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0017_m_000009_1' to tip task_201502131503_0017_m_000009, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:14:37,518 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000016_1'
+2015-03-24 18:14:37,519 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0017_m_000016_1' to tip task_201502131503_0017_m_000016, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:14:39,696 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000009_1'
+2015-03-24 18:14:43,525 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000016_1'
+2015-03-24 18:16:01,675 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000007_0' has completed task_201502131503_0017_r_000007 successfully.
+2015-03-24 18:16:03,247 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000004_0' has completed task_201502131503_0017_r_000004 successfully.
+2015-03-24 18:16:03,776 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000005_0' has completed task_201502131503_0017_r_000005 successfully.
+2015-03-24 18:16:04,805 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000000_0' has completed task_201502131503_0017_r_000000 successfully.
+2015-03-24 18:16:07,593 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000006_0' has completed task_201502131503_0017_r_000006 successfully.
+2015-03-24 18:16:08,518 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000002_0' has completed task_201502131503_0017_r_000002 successfully.
+2015-03-24 18:16:08,932 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000003_0' has completed task_201502131503_0017_r_000003 successfully.
+2015-03-24 18:16:11,050 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_r_000001_0' has completed task_201502131503_0017_r_000001 successfully.
+2015-03-24 18:16:11,052 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0017_m_000029_0' to tip task_201502131503_0017_m_000029, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:16:17,061 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0017_m_000029_0' has completed task_201502131503_0017_m_000029 successfully.
+2015-03-24 18:16:17,062 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0017 has completed successfully.
+2015-03-24 18:16:17,062 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0017,submitTime=1427191973634,launchTime=1427191973718,firstMapTaskLaunchTime=1427191982732,firstReduceTaskLaunchTime=1427192026674,firstJobSetupTaskLaunchTime=1427191973720,firstJobCleanupTaskLaunchTime=1427192171052,finishTime=1427192177062,numMaps=29,numSlotsPerMap=1,numReduces=8,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=1895,reduceSlotsSeconds=1084,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-1)
+2015-03-24 18:16:17,066 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0017_1427191973634_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:16:17,066 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000016_0'
+2015-03-24 18:16:17,067 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000021_0'
+2015-03-24 18:16:17,067 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000022_0'
+2015-03-24 18:16:17,067 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000025_0'
+2015-03-24 18:16:17,067 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000029_0'
+2015-03-24 18:16:17,067 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000001_0'
+2015-03-24 18:16:17,079 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0017_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:16:17,527 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000026_0'
+2015-03-24 18:16:17,527 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000002_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000000_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000001_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000017_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000018_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000030_0'
+2015-03-24 18:16:17,941 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000003_0'
+2015-03-24 18:16:18,028 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0018: nMaps=6 nReduces=1 max=-1
+2015-03-24 18:16:18,029 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0018 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:16:18,029 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0018	RESULT=SUCCESS
+2015-03-24 18:16:18,029 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0018
+2015-03-24 18:16:18,029 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0018
+2015-03-24 18:16:18,062 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0018/jobToken
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0018 = 944. Number of splits = 6
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000001 has split on node:/default-rack/90s196
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000002 has split on node:/default-rack/90s190
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000003 has split on node:/default-rack/90s197
+2015-03-24 18:16:18,069 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000004 has split on node:/default-rack/90s194
+2015-03-24 18:16:18,070 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0018_m_000005 has split on node:/default-rack/90s195
+2015-03-24 18:16:18,070 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0018 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:16:18,070 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0018 initialized successfully with 6 map tasks and 1 reduce tasks.
+2015-03-24 18:16:18,261 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0018_m_000007_0' to tip task_201502131503_0018_m_000007, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:16:18,262 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000002_0'
+2015-03-24 18:16:18,262 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000003_0'
+2015-03-24 18:16:18,262 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000009_0'
+2015-03-24 18:16:18,262 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000010_0'
+2015-03-24 18:16:18,262 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000004_0'
+2015-03-24 18:16:18,789 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000004_0'
+2015-03-24 18:16:18,789 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000005_0'
+2015-03-24 18:16:18,789 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000006_0'
+2015-03-24 18:16:18,790 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000007_0'
+2015-03-24 18:16:18,790 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000005_0'
+2015-03-24 18:16:19,605 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000012_0'
+2015-03-24 18:16:19,605 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000013_0'
+2015-03-24 18:16:19,605 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000019_0'
+2015-03-24 18:16:19,605 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000028_0'
+2015-03-24 18:16:19,605 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000006_0'
+2015-03-24 18:16:19,690 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000008_0'
+2015-03-24 18:16:19,690 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000011_0'
+2015-03-24 18:16:19,690 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000020_0'
+2015-03-24 18:16:19,690 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000024_0'
+2015-03-24 18:16:19,690 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000007_0'
+2015-03-24 18:16:19,818 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000014_0'
+2015-03-24 18:16:19,818 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000015_0'
+2015-03-24 18:16:19,818 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000023_0'
+2015-03-24 18:16:19,818 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_m_000027_0'
+2015-03-24 18:16:19,818 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0017_r_000000_0'
+2015-03-24 18:16:27,271 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000007_0' has completed task_201502131503_0018_m_000007 successfully.
+2015-03-24 18:16:27,273 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000000_0' to tip task_201502131503_0018_m_000000, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:16:27,273 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0018_m_000000
+2015-03-24 18:16:27,798 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000001_0' to tip task_201502131503_0018_m_000001, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:16:27,798 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0018_m_000001
+2015-03-24 18:16:28,615 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000002_0' to tip task_201502131503_0018_m_000002, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:16:28,615 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0018_m_000002
+2015-03-24 18:16:28,698 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000005_0' to tip task_201502131503_0018_m_000005, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:16:28,698 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0018_m_000005
+2015-03-24 18:16:28,826 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000004_0' to tip task_201502131503_0018_m_000004, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:16:28,827 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0018_m_000004
+2015-03-24 18:16:29,078 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0018_m_000003_0' to tip task_201502131503_0018_m_000003, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:16:29,078 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0018_m_000003
+2015-03-24 18:16:33,280 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000000_0' has completed task_201502131503_0018_m_000000 successfully.
+2015-03-24 18:16:33,282 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0018_r_000000_0' to tip task_201502131503_0018_r_000000, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:16:36,808 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000001_0' has completed task_201502131503_0018_m_000001 successfully.
+2015-03-24 18:16:37,624 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000002_0' has completed task_201502131503_0018_m_000002 successfully.
+2015-03-24 18:16:37,707 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000005_0' has completed task_201502131503_0018_m_000005 successfully.
+2015-03-24 18:16:37,836 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000004_0' has completed task_201502131503_0018_m_000004 successfully.
+2015-03-24 18:16:38,088 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000003_0' has completed task_201502131503_0018_m_000003 successfully.
+2015-03-24 18:16:48,298 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_r_000000_0' has completed task_201502131503_0018_r_000000 successfully.
+2015-03-24 18:16:48,300 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0018_m_000006_0' to tip task_201502131503_0018_m_000006, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:16:54,308 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0018_m_000006_0' has completed task_201502131503_0018_m_000006 successfully.
+2015-03-24 18:16:54,308 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0018 has completed successfully.
+2015-03-24 18:16:54,309 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0018,submitTime=1427192177996,launchTime=1427192178070,firstMapTaskLaunchTime=1427192187273,firstReduceTaskLaunchTime=1427192193281,firstJobSetupTaskLaunchTime=1427192178260,firstJobCleanupTaskLaunchTime=1427192208300,finishTime=1427192214308,numMaps=6,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=36,reduceSlotsSeconds=13,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-2)
+2015-03-24 18:16:54,313 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0018_1427192177996_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:16:54,313 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000000_0'
+2015-03-24 18:16:54,314 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000006_0'
+2015-03-24 18:16:54,314 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000007_0'
+2015-03-24 18:16:54,314 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_r_000000_0'
+2015-03-24 18:16:54,322 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0018_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:16:54,824 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000001_0'
+2015-03-24 18:16:55,643 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000002_0'
+2015-03-24 18:16:55,722 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000005_0'
+2015-03-24 18:16:55,851 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000004_0'
+2015-03-24 18:16:56,104 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0018_m_000003_0'
+2015-03-24 18:19:22,368 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0019: nMaps=29 nReduces=2 max=-1
+2015-03-24 18:19:22,368 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0019 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:19:22,368 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0019	RESULT=SUCCESS
+2015-03-24 18:19:22,368 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0019
+2015-03-24 18:19:22,369 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0019
+2015-03-24 18:19:22,403 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0019/jobToken
+2015-03-24 18:19:22,416 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0019 = 6348622474. Number of splits = 29
+2015-03-24 18:19:22,416 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,416 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000001 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000002 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000003 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000004 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000005 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000006 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000007 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000008 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,417 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000009 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000010 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000011 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000012 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000013 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000014 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000015 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000016 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000017 has split on node:/default-rack/90s197
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000018 has split on node:/default-rack/90s197
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000019 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000020 has split on node:/default-rack/90s195
+2015-03-24 18:19:22,418 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000021 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000022 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000023 has split on node:/default-rack/90s194
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000024 has split on node:/default-rack/90s195
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000025 has split on node:/default-rack/90s191
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000026 has split on node:/default-rack/90s196
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000027 has split on node:/default-rack/90s194
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0019_m_000028 has split on node:/default-rack/90s190
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0019 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:19:22,419 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0019 initialized successfully with 29 map tasks and 2 reduce tasks.
+2015-03-24 18:19:22,780 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0019_m_000030_0' to tip task_201502131503_0019_m_000030, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:19:31,790 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000030_0' has completed task_201502131503_0019_m_000030 successfully.
+2015-03-24 18:19:31,792 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000004_0' to tip task_201502131503_0019_m_000004, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:19:31,793 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000004
+2015-03-24 18:19:31,793 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000005_0' to tip task_201502131503_0019_m_000005, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:19:31,793 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000005
+2015-03-24 18:19:31,793 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000012_0' to tip task_201502131503_0019_m_000012, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:19:31,794 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000012
+2015-03-24 18:19:31,794 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000013_0' to tip task_201502131503_0019_m_000013, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:19:31,794 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000013
+2015-03-24 18:19:31,838 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000020_0' to tip task_201502131503_0019_m_000020, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:19:31,839 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000020
+2015-03-24 18:19:31,839 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000024_0' to tip task_201502131503_0019_m_000024, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:19:31,839 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000024
+2015-03-24 18:19:31,839 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000000_0' to tip task_201502131503_0019_m_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:19:31,839 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000000
+2015-03-24 18:19:31,840 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000001_0' to tip task_201502131503_0019_m_000001, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:19:31,840 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000001
+2015-03-24 18:19:31,975 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000023_0' to tip task_201502131503_0019_m_000023, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:19:31,975 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000023
+2015-03-24 18:19:31,975 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000027_0' to tip task_201502131503_0019_m_000027, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:19:31,975 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000027
+2015-03-24 18:19:31,976 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000002_0' to tip task_201502131503_0019_m_000002, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:19:31,976 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000002
+2015-03-24 18:19:31,976 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000003_0' to tip task_201502131503_0019_m_000003, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:19:31,976 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000003
+2015-03-24 18:19:32,237 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000006_0' to tip task_201502131503_0019_m_000006, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:19:32,238 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000006
+2015-03-24 18:19:32,238 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000007_0' to tip task_201502131503_0019_m_000007, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:19:32,238 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000007
+2015-03-24 18:19:32,238 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000008_0' to tip task_201502131503_0019_m_000008, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:19:32,238 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000008
+2015-03-24 18:19:32,239 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000009_0' to tip task_201502131503_0019_m_000009, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:19:32,239 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000009
+2015-03-24 18:19:32,698 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000014_0' to tip task_201502131503_0019_m_000014, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:19:32,699 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000014
+2015-03-24 18:19:32,699 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000015_0' to tip task_201502131503_0019_m_000015, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:19:32,699 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000015
+2015-03-24 18:19:32,700 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000016_0' to tip task_201502131503_0019_m_000016, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:19:32,700 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000016
+2015-03-24 18:19:32,701 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000022_0' to tip task_201502131503_0019_m_000022, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:19:32,701 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000022
+2015-03-24 18:19:33,097 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000017_0' to tip task_201502131503_0019_m_000017, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:19:33,098 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000017
+2015-03-24 18:19:33,098 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000018_0' to tip task_201502131503_0019_m_000018, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:19:33,098 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000018
+2015-03-24 18:19:33,099 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000010_0' to tip task_201502131503_0019_m_000010, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:19:33,099 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000010
+2015-03-24 18:19:33,099 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000011_0' to tip task_201502131503_0019_m_000011, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:19:33,099 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000011
+2015-03-24 18:19:33,441 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000021_0' to tip task_201502131503_0019_m_000021, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:19:33,441 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000021
+2015-03-24 18:19:33,441 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000025_0' to tip task_201502131503_0019_m_000025, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:19:33,442 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0019_m_000025
+2015-03-24 18:19:33,442 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000019_0' to tip task_201502131503_0019_m_000019, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:19:33,443 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000019
+2015-03-24 18:19:33,443 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000026_0' to tip task_201502131503_0019_m_000026, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:19:33,443 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000026
+2015-03-24 18:19:33,949 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000028_0' to tip task_201502131503_0019_m_000028, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:19:33,949 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000028
+2015-03-24 18:19:48,963 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000028_0' has completed task_201502131503_0019_m_000028 successfully.
+2015-03-24 18:20:10,871 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000024_0' has completed task_201502131503_0019_m_000024 successfully.
+2015-03-24 18:20:10,873 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0019_r_000000_0' to tip task_201502131503_0019_r_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:20:11,011 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0019_r_000001_0' to tip task_201502131503_0019_r_000001, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:20:14,015 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000027_0' has completed task_201502131503_0019_m_000027 successfully.
+2015-03-24 18:20:17,018 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000023_0' has completed task_201502131503_0019_m_000023 successfully.
+2015-03-24 18:20:17,739 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000022_0' has completed task_201502131503_0019_m_000022 successfully.
+2015-03-24 18:20:18,481 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000021_0' has completed task_201502131503_0019_m_000021 successfully.
+2015-03-24 18:20:18,482 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000025_0' has completed task_201502131503_0019_m_000025 successfully.
+2015-03-24 18:20:21,486 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000026_0' has completed task_201502131503_0019_m_000026 successfully.
+2015-03-24 18:20:33,150 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000018_0' has completed task_201502131503_0019_m_000018 successfully.
+2015-03-24 18:20:34,891 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000020_0' has completed task_201502131503_0019_m_000020 successfully.
+2015-03-24 18:20:39,506 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000019_0' has completed task_201502131503_0019_m_000019 successfully.
+2015-03-24 18:20:42,164 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000017_0' has completed task_201502131503_0019_m_000017 successfully.
+2015-03-24 18:20:52,860 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000004_0' has completed task_201502131503_0019_m_000004 successfully.
+2015-03-24 18:20:52,861 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000005_0' has completed task_201502131503_0019_m_000005 successfully.
+2015-03-24 18:20:52,909 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000000_0' has completed task_201502131503_0019_m_000000 successfully.
+2015-03-24 18:20:52,909 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000001_0' has completed task_201502131503_0019_m_000001 successfully.
+2015-03-24 18:20:53,304 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000007_0' has completed task_201502131503_0019_m_000007 successfully.
+2015-03-24 18:20:53,305 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000008_0' has completed task_201502131503_0019_m_000008 successfully.
+2015-03-24 18:20:53,768 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000014_0' has completed task_201502131503_0019_m_000014 successfully.
+2015-03-24 18:20:53,769 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000015_0' has completed task_201502131503_0019_m_000015 successfully.
+2015-03-24 18:20:53,769 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000016_0' has completed task_201502131503_0019_m_000016 successfully.
+2015-03-24 18:20:55,865 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000012_0' has completed task_201502131503_0019_m_000012 successfully.
+2015-03-24 18:20:55,867 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000013_0' has completed task_201502131503_0019_m_000013 successfully.
+2015-03-24 18:20:56,058 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000002_0' has completed task_201502131503_0019_m_000002 successfully.
+2015-03-24 18:20:56,059 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000003_0' has completed task_201502131503_0019_m_000003 successfully.
+2015-03-24 18:20:56,060 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000006_1' to tip task_201502131503_0019_m_000006, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:20:56,060 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000006
+2015-03-24 18:20:56,309 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000006_0' has completed task_201502131503_0019_m_000006 successfully.
+2015-03-24 18:20:56,310 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000009_0' has completed task_201502131503_0019_m_000009 successfully.
+2015-03-24 18:20:56,311 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000010_1' to tip task_201502131503_0019_m_000010, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:20:56,311 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000010
+2015-03-24 18:20:56,773 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0019_m_000011_1' to tip task_201502131503_0019_m_000011, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:20:56,773 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0019_m_000011
+2015-03-24 18:20:57,177 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000010_0' has completed task_201502131503_0019_m_000010 successfully.
+2015-03-24 18:20:57,178 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000011_0' has completed task_201502131503_0019_m_000011 successfully.
+2015-03-24 18:21:02,066 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000006_1'
+2015-03-24 18:21:02,067 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0019_m_000006_1' to tip task_201502131503_0019_m_000006, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:21:02,318 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000010_1'
+2015-03-24 18:21:02,319 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0019_m_000010_1' to tip task_201502131503_0019_m_000010, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:21:02,781 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000011_1'
+2015-03-24 18:21:02,782 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0019_m_000011_1' to tip task_201502131503_0019_m_000011, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:21:08,078 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000006_1'
+2015-03-24 18:21:08,327 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000010_1'
+2015-03-24 18:21:08,788 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000011_1'
+2015-03-24 18:26:14,317 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_r_000001_0' has completed task_201502131503_0019_r_000001 successfully.
+2015-03-24 18:26:20,149 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_r_000000_0' has completed task_201502131503_0019_r_000000 successfully.
+2015-03-24 18:26:20,151 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0019_m_000029_0' to tip task_201502131503_0019_m_000029, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:26:26,158 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0019_m_000029_0' has completed task_201502131503_0019_m_000029 successfully.
+2015-03-24 18:26:26,159 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0019 has completed successfully.
+2015-03-24 18:26:26,159 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0019,submitTime=1427192362340,launchTime=1427192362419,firstMapTaskLaunchTime=1427192371792,firstReduceTaskLaunchTime=1427192410872,firstJobSetupTaskLaunchTime=1427192362780,firstJobCleanupTaskLaunchTime=1427192780151,finishTime=1427192786159,numMaps=29,numSlotsPerMap=1,numReduces=2,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=1921,reduceSlotsSeconds=728,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-1)
+2015-03-24 18:26:26,163 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0019_1427192362340_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:26:26,163 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000000_0'
+2015-03-24 18:26:26,164 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000001_0'
+2015-03-24 18:26:26,164 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000020_0'
+2015-03-24 18:26:26,164 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000024_0'
+2015-03-24 18:26:26,164 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000029_0'
+2015-03-24 18:26:26,164 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_r_000000_0'
+2015-03-24 18:26:26,176 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0019_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:26:26,183 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000004_0'
+2015-03-24 18:26:26,183 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000005_0'
+2015-03-24 18:26:26,183 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000012_0'
+2015-03-24 18:26:26,183 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000013_0'
+2015-03-24 18:26:26,183 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000030_0'
+2015-03-24 18:26:26,328 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000002_0'
+2015-03-24 18:26:26,328 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000003_0'
+2015-03-24 18:26:26,328 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000023_0'
+2015-03-24 18:26:26,328 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000027_0'
+2015-03-24 18:26:26,328 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_r_000001_0'
+2015-03-24 18:26:26,638 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000006_0'
+2015-03-24 18:26:26,638 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000007_0'
+2015-03-24 18:26:26,638 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000008_0'
+2015-03-24 18:26:26,638 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000009_0'
+2015-03-24 18:26:27,054 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000014_0'
+2015-03-24 18:26:27,054 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000015_0'
+2015-03-24 18:26:27,054 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000016_0'
+2015-03-24 18:26:27,054 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000022_0'
+2015-03-24 18:26:27,063 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0020: nMaps=2 nReduces=1 max=-1
+2015-03-24 18:26:27,063 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0020 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:26:27,063 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0020	RESULT=SUCCESS
+2015-03-24 18:26:27,063 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0020
+2015-03-24 18:26:27,064 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0020
+2015-03-24 18:26:27,095 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0020/jobToken
+2015-03-24 18:26:27,099 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0020 = 236. Number of splits = 2
+2015-03-24 18:26:27,099 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0020_m_000000 has split on node:/default-rack/90s190
+2015-03-24 18:26:27,100 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0020_m_000001 has split on node:/default-rack/90s196
+2015-03-24 18:26:27,100 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0020 LOCALITY_WAIT_FACTOR=0.25
+2015-03-24 18:26:27,100 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0020 initialized successfully with 2 map tasks and 1 reduce tasks.
+2015-03-24 18:26:27,451 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0020_m_000003_0' to tip task_201502131503_0020_m_000003, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:26:27,453 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000010_0'
+2015-03-24 18:26:27,453 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000011_0'
+2015-03-24 18:26:27,453 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000017_0'
+2015-03-24 18:26:27,453 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000018_0'
+2015-03-24 18:26:27,788 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000019_0'
+2015-03-24 18:26:27,788 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000021_0'
+2015-03-24 18:26:27,788 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000025_0'
+2015-03-24 18:26:27,788 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000026_0'
+2015-03-24 18:26:28,284 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0019_m_000028_0'
+2015-03-24 18:26:36,462 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0020_m_000003_0' has completed task_201502131503_0020_m_000003 successfully.
+2015-03-24 18:26:36,465 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0020_m_000000_0' to tip task_201502131503_0020_m_000000, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:26:36,465 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0020_m_000000
+2015-03-24 18:26:36,797 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0020_m_000001_0' to tip task_201502131503_0020_m_000001, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:26:36,797 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0020_m_000001
+2015-03-24 18:26:42,473 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0020_m_000000_0' has completed task_201502131503_0020_m_000000 successfully.
+2015-03-24 18:26:42,474 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0020_r_000000_0' to tip task_201502131503_0020_r_000000, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:26:45,806 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0020_m_000001_0' has completed task_201502131503_0020_m_000001 successfully.
+2015-03-24 18:26:54,486 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0020_r_000000_0' has completed task_201502131503_0020_r_000000 successfully.
+2015-03-24 18:26:54,488 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0020_m_000002_0' to tip task_201502131503_0020_m_000002, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:27:00,495 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0020_m_000002_0' has completed task_201502131503_0020_m_000002 successfully.
+2015-03-24 18:27:00,495 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0020 has completed successfully.
+2015-03-24 18:27:00,496 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0020,submitTime=1427192787027,launchTime=1427192787100,firstMapTaskLaunchTime=1427192796464,firstReduceTaskLaunchTime=1427192802474,firstJobSetupTaskLaunchTime=1427192787450,firstJobCleanupTaskLaunchTime=1427192814488,finishTime=1427192820495,numMaps=2,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=18,reduceSlotsSeconds=10,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-2)
+2015-03-24 18:27:00,498 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0020_1427192787027_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:27:00,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0020_m_000000_0'
+2015-03-24 18:27:00,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0020_m_000002_0'
+2015-03-24 18:27:00,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0020_m_000003_0'
+2015-03-24 18:27:00,499 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0020_r_000000_0'
+2015-03-24 18:27:00,507 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0020_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:27:00,819 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0020_m_000001_0'
+2015-03-24 18:27:19,276 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0021: nMaps=29 nReduces=4 max=-1
+2015-03-24 18:27:19,277 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0021 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:27:19,277 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0021	RESULT=SUCCESS
+2015-03-24 18:27:19,277 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0021
+2015-03-24 18:27:19,277 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0021
+2015-03-24 18:27:19,310 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0021/jobToken
+2015-03-24 18:27:19,322 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0021 = 6348622474. Number of splits = 29
+2015-03-24 18:27:19,322 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000001 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000002 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000003 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000004 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000005 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000006 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,323 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000007 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000008 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000009 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000010 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000011 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000012 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000013 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,324 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000014 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000015 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000016 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000017 has split on node:/default-rack/90s197
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000018 has split on node:/default-rack/90s197
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000019 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000020 has split on node:/default-rack/90s195
+2015-03-24 18:27:19,325 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000021 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000022 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000023 has split on node:/default-rack/90s194
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000024 has split on node:/default-rack/90s195
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000025 has split on node:/default-rack/90s191
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000026 has split on node:/default-rack/90s196
+2015-03-24 18:27:19,326 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000027 has split on node:/default-rack/90s194
+2015-03-24 18:27:19,327 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0021_m_000028 has split on node:/default-rack/90s190
+2015-03-24 18:27:19,327 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0021 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:27:19,327 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0021 initialized successfully with 29 map tasks and 4 reduce tasks.
+2015-03-24 18:27:20,208 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0021_m_000030_0' to tip task_201502131503_0021_m_000030, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:27:29,217 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000030_0' has completed task_201502131503_0021_m_000030 successfully.
+2015-03-24 18:27:29,220 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000020_0' to tip task_201502131503_0021_m_000020, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:27:29,220 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000020
+2015-03-24 18:27:29,220 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000024_0' to tip task_201502131503_0021_m_000024, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:27:29,220 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000024
+2015-03-24 18:27:29,221 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000000_0' to tip task_201502131503_0021_m_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:27:29,221 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000000
+2015-03-24 18:27:29,221 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000001_0' to tip task_201502131503_0021_m_000001, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:27:29,221 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000001
+2015-03-24 18:27:29,242 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000004_0' to tip task_201502131503_0021_m_000004, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:27:29,242 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000004
+2015-03-24 18:27:29,243 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000005_0' to tip task_201502131503_0021_m_000005, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:27:29,243 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000005
+2015-03-24 18:27:29,243 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000012_0' to tip task_201502131503_0021_m_000012, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:27:29,243 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000012
+2015-03-24 18:27:29,243 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000013_0' to tip task_201502131503_0021_m_000013, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:27:29,244 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000013
+2015-03-24 18:27:29,383 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000023_0' to tip task_201502131503_0021_m_000023, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:27:29,384 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000023
+2015-03-24 18:27:29,384 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000027_0' to tip task_201502131503_0021_m_000027, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:27:29,384 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000027
+2015-03-24 18:27:29,385 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000002_0' to tip task_201502131503_0021_m_000002, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:27:29,385 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000002
+2015-03-24 18:27:29,385 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000003_0' to tip task_201502131503_0021_m_000003, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:27:29,386 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000003
+2015-03-24 18:27:29,693 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000006_0' to tip task_201502131503_0021_m_000006, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:27:29,693 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000006
+2015-03-24 18:27:29,693 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000007_0' to tip task_201502131503_0021_m_000007, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:27:29,694 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000007
+2015-03-24 18:27:29,694 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000008_0' to tip task_201502131503_0021_m_000008, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:27:29,694 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000008
+2015-03-24 18:27:29,695 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000009_0' to tip task_201502131503_0021_m_000009, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:27:29,695 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000009
+2015-03-24 18:27:30,104 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000014_0' to tip task_201502131503_0021_m_000014, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:27:30,104 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000014
+2015-03-24 18:27:30,105 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000015_0' to tip task_201502131503_0021_m_000015, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:27:30,105 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000015
+2015-03-24 18:27:30,105 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000016_0' to tip task_201502131503_0021_m_000016, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:27:30,106 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000016
+2015-03-24 18:27:30,106 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000022_0' to tip task_201502131503_0021_m_000022, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:27:30,106 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000022
+2015-03-24 18:27:30,525 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000017_0' to tip task_201502131503_0021_m_000017, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:27:30,525 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000017
+2015-03-24 18:27:30,526 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000018_0' to tip task_201502131503_0021_m_000018, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:27:30,526 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000018
+2015-03-24 18:27:30,526 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000010_0' to tip task_201502131503_0021_m_000010, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:27:30,526 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000010
+2015-03-24 18:27:30,526 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000011_0' to tip task_201502131503_0021_m_000011, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:27:30,527 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000011
+2015-03-24 18:27:30,842 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000021_0' to tip task_201502131503_0021_m_000021, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:27:30,843 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000021
+2015-03-24 18:27:30,843 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000025_0' to tip task_201502131503_0021_m_000025, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:27:30,843 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000025
+2015-03-24 18:27:30,843 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000019_0' to tip task_201502131503_0021_m_000019, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:27:30,844 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000019
+2015-03-24 18:27:30,844 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000026_0' to tip task_201502131503_0021_m_000026, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:27:30,844 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000026
+2015-03-24 18:27:31,335 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000028_0' to tip task_201502131503_0021_m_000028, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:27:31,335 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000028
+2015-03-24 18:27:46,350 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000028_0' has completed task_201502131503_0021_m_000028 successfully.
+2015-03-24 18:28:08,253 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000024_0' has completed task_201502131503_0021_m_000024 successfully.
+2015-03-24 18:28:08,254 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0021_r_000000_0' to tip task_201502131503_0021_r_000000, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:28:08,275 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0021_r_000001_0' to tip task_201502131503_0021_r_000001, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:28:08,419 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0021_r_000002_0' to tip task_201502131503_0021_r_000002, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:28:08,728 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0021_r_000003_0' to tip task_201502131503_0021_r_000003, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:28:14,425 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000023_0' has completed task_201502131503_0021_m_000023 successfully.
+2015-03-24 18:28:14,426 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000027_0' has completed task_201502131503_0021_m_000027 successfully.
+2015-03-24 18:28:15,145 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000022_0' has completed task_201502131503_0021_m_000022 successfully.
+2015-03-24 18:28:15,886 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000025_0' has completed task_201502131503_0021_m_000025 successfully.
+2015-03-24 18:28:15,886 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000026_0' has completed task_201502131503_0021_m_000026 successfully.
+2015-03-24 18:28:18,890 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000021_0' has completed task_201502131503_0021_m_000021 successfully.
+2015-03-24 18:28:26,269 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000020_0' has completed task_201502131503_0021_m_000020 successfully.
+2015-03-24 18:28:33,581 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000018_0' has completed task_201502131503_0021_m_000018 successfully.
+2015-03-24 18:28:33,905 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000019_0' has completed task_201502131503_0021_m_000019 successfully.
+2015-03-24 18:28:36,584 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000017_0' has completed task_201502131503_0021_m_000017 successfully.
+2015-03-24 18:28:45,169 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000014_0' has completed task_201502131503_0021_m_000014 successfully.
+2015-03-24 18:28:45,594 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000010_0' has completed task_201502131503_0021_m_000010 successfully.
+2015-03-24 18:28:47,766 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000009_0' has completed task_201502131503_0021_m_000009 successfully.
+2015-03-24 18:28:48,174 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000016_0' has completed task_201502131503_0021_m_000016 successfully.
+2015-03-24 18:28:50,290 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000000_0' has completed task_201502131503_0021_m_000000 successfully.
+2015-03-24 18:28:50,291 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000001_0' has completed task_201502131503_0021_m_000001 successfully.
+2015-03-24 18:28:50,315 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000004_0' has completed task_201502131503_0021_m_000004 successfully.
+2015-03-24 18:28:50,316 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000005_0' has completed task_201502131503_0021_m_000005 successfully.
+2015-03-24 18:28:50,317 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000013_0' has completed task_201502131503_0021_m_000013 successfully.
+2015-03-24 18:28:50,770 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000006_0' has completed task_201502131503_0021_m_000006 successfully.
+2015-03-24 18:28:51,178 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000015_0' has completed task_201502131503_0021_m_000015 successfully.
+2015-03-24 18:28:51,601 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000011_0' has completed task_201502131503_0021_m_000011 successfully.
+2015-03-24 18:28:51,602 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000012_1' to tip task_201502131503_0021_m_000012, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:28:51,603 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000012
+2015-03-24 18:28:51,922 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000002_1' to tip task_201502131503_0021_m_000002, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:28:51,923 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0021_m_000002
+2015-03-24 18:28:52,407 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000003_1' to tip task_201502131503_0021_m_000003, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:28:52,407 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000003
+2015-03-24 18:28:53,295 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000007_1' to tip task_201502131503_0021_m_000007, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:28:53,295 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000007
+2015-03-24 18:28:53,321 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000012_0' has completed task_201502131503_0021_m_000012 successfully.
+2015-03-24 18:28:53,322 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0021_m_000008_1' to tip task_201502131503_0021_m_000008, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:28:53,322 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0021_m_000008
+2015-03-24 18:28:53,461 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000002_0' has completed task_201502131503_0021_m_000002 successfully.
+2015-03-24 18:28:53,462 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000003_0' has completed task_201502131503_0021_m_000003 successfully.
+2015-03-24 18:28:56,777 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000007_0' has completed task_201502131503_0021_m_000007 successfully.
+2015-03-24 18:28:56,778 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000008_0' has completed task_201502131503_0021_m_000008 successfully.
+2015-03-24 18:28:57,610 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000012_1'
+2015-03-24 18:28:57,610 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_m_000012_1' to tip task_201502131503_0021_m_000012, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:28:57,929 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000002_1'
+2015-03-24 18:28:57,930 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_m_000002_1' to tip task_201502131503_0021_m_000002, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:28:58,412 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000003_1'
+2015-03-24 18:28:58,413 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_m_000003_1' to tip task_201502131503_0021_m_000003, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:29:02,303 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000007_1'
+2015-03-24 18:29:02,303 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_m_000007_1' to tip task_201502131503_0021_m_000007, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:29:02,332 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000008_1'
+2015-03-24 18:29:02,332 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_m_000008_1' to tip task_201502131503_0021_m_000008, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:29:03,619 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000012_1'
+2015-03-24 18:29:03,937 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000002_1'
+2015-03-24 18:29:04,421 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000003_1'
+2015-03-24 18:29:08,309 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000007_1'
+2015-03-24 18:29:08,338 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000008_1'
+2015-03-24 18:30:39,271 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0021_r_000003_1' to tip task_201502131503_0021_r_000003, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:31:32,417 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_r_000000_0' has completed task_201502131503_0021_r_000000 successfully.
+2015-03-24 18:31:44,472 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_r_000001_0' has completed task_201502131503_0021_r_000001 successfully.
+2015-03-24 18:31:44,612 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_r_000002_0' has completed task_201502131503_0021_r_000002 successfully.
+2015-03-24 18:31:47,961 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_r_000003_0' has completed task_201502131503_0021_r_000003 successfully.
+2015-03-24 18:31:47,963 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0021_m_000029_0' to tip task_201502131503_0021_m_000029, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:31:51,331 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000003_1'
+2015-03-24 18:31:51,331 INFO org.apache.hadoop.mapred.JobTracker: Adding task (TASK_CLEANUP) 'attempt_201502131503_0021_r_000003_1' to tip task_201502131503_0021_r_000003, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:31:53,971 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0021_m_000029_0' has completed task_201502131503_0021_m_000029 successfully.
+2015-03-24 18:31:53,972 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0021 has completed successfully.
+2015-03-24 18:31:53,972 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0021,submitTime=1427192839243,launchTime=1427192839327,firstMapTaskLaunchTime=1427192849219,firstReduceTaskLaunchTime=1427192888254,firstJobSetupTaskLaunchTime=1427192840208,firstJobCleanupTaskLaunchTime=1427193107963,finishTime=1427193113972,numMaps=29,numSlotsPerMap=1,numReduces=4,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=1905,reduceSlotsSeconds=850,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-1)
+2015-03-24 18:31:53,977 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0021_1427192839243_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:31:53,978 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000006_0'
+2015-03-24 18:31:53,979 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000007_0'
+2015-03-24 18:31:53,979 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000008_0'
+2015-03-24 18:31:53,979 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000009_0'
+2015-03-24 18:31:53,979 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000029_0'
+2015-03-24 18:31:53,979 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000003_0'
+2015-03-24 18:31:53,989 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0021_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:31:54,335 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000014_0'
+2015-03-24 18:31:54,335 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000015_0'
+2015-03-24 18:31:54,335 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000016_0'
+2015-03-24 18:31:54,335 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000022_0'
+2015-03-24 18:31:54,760 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000010_0'
+2015-03-24 18:31:54,760 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000011_0'
+2015-03-24 18:31:54,760 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000017_0'
+2015-03-24 18:31:54,760 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000018_0'
+2015-03-24 18:31:54,987 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0022: nMaps=3 nReduces=1 max=-1
+2015-03-24 18:31:54,987 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0022 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:31:54,987 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0022	RESULT=SUCCESS
+2015-03-24 18:31:54,987 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0022
+2015-03-24 18:31:54,987 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0022
+2015-03-24 18:31:55,024 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0022/jobToken
+2015-03-24 18:31:55,030 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0022 = 472. Number of splits = 3
+2015-03-24 18:31:55,030 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0022_m_000000 has split on node:/default-rack/90s194
+2015-03-24 18:31:55,030 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0022_m_000001 has split on node:/default-rack/90s190
+2015-03-24 18:31:55,030 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0022_m_000002 has split on node:/default-rack/90s197
+2015-03-24 18:31:55,030 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0022 LOCALITY_WAIT_FACTOR=0.375
+2015-03-24 18:31:55,031 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0022 initialized successfully with 3 map tasks and 1 reduce tasks.
+2015-03-24 18:31:55,077 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0022_m_000004_0' to tip task_201502131503_0022_m_000004, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:31:55,078 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000019_0'
+2015-03-24 18:31:55,078 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000021_0'
+2015-03-24 18:31:55,078 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000025_0'
+2015-03-24 18:31:55,078 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000026_0'
+2015-03-24 18:31:55,558 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000028_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000000_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000001_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000020_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000024_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000030_0'
+2015-03-24 18:31:56,437 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000000_0'
+2015-03-24 18:31:56,485 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000004_0'
+2015-03-24 18:31:56,485 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000005_0'
+2015-03-24 18:31:56,485 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000012_0'
+2015-03-24 18:31:56,485 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000013_0'
+2015-03-24 18:31:56,485 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000001_0'
+2015-03-24 18:31:56,623 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000002_0'
+2015-03-24 18:31:56,623 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000003_0'
+2015-03-24 18:31:56,623 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000023_0'
+2015-03-24 18:31:56,623 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_m_000027_0'
+2015-03-24 18:31:56,623 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000002_0'
+2015-03-24 18:31:57,339 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0021_r_000003_1'
+2015-03-24 18:32:04,087 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_m_000004_0' has completed task_201502131503_0022_m_000004 successfully.
+2015-03-24 18:32:04,089 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0022_m_000000_0' to tip task_201502131503_0022_m_000000, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:32:04,089 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0022_m_000000
+2015-03-24 18:32:04,566 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0022_m_000001_0' to tip task_201502131503_0022_m_000001, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:32:04,566 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0022_m_000001
+2015-03-24 18:32:05,445 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0022_m_000002_0' to tip task_201502131503_0022_m_000002, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:32:05,446 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0022_m_000002
+2015-03-24 18:32:10,096 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_m_000000_0' has completed task_201502131503_0022_m_000000 successfully.
+2015-03-24 18:32:10,097 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0022_r_000000_0' to tip task_201502131503_0022_r_000000, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:32:13,576 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_m_000001_0' has completed task_201502131503_0022_m_000001 successfully.
+2015-03-24 18:32:14,454 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_m_000002_0' has completed task_201502131503_0022_m_000002 successfully.
+2015-03-24 18:32:25,113 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_r_000000_0' has completed task_201502131503_0022_r_000000 successfully.
+2015-03-24 18:32:25,114 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0022_m_000003_0' to tip task_201502131503_0022_m_000003, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:32:31,121 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0022_m_000003_0' has completed task_201502131503_0022_m_000003 successfully.
+2015-03-24 18:32:31,122 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0022 has completed successfully.
+2015-03-24 18:32:31,122 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0022,submitTime=1427193114953,launchTime=1427193115030,firstMapTaskLaunchTime=1427193124088,firstReduceTaskLaunchTime=1427193130097,firstJobSetupTaskLaunchTime=1427193115077,firstJobCleanupTaskLaunchTime=1427193145114,finishTime=1427193151122,numMaps=3,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=22,reduceSlotsSeconds=13,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from le...left32.a\=right32.a(Stage-2)
+2015-03-24 18:32:31,125 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0022_1427193114953_casa_select+count%28*%29+from+le...left32.a%3Dright32.a%28Stage to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:32:31,126 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_m_000000_0'
+2015-03-24 18:32:31,126 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_m_000003_0'
+2015-03-24 18:32:31,126 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_m_000004_0'
+2015-03-24 18:32:31,126 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_r_000000_0'
+2015-03-24 18:32:31,135 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0022_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:32:31,591 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_m_000001_0'
+2015-03-24 18:32:32,469 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0022_m_000002_0'
+2015-03-24 18:32:51,843 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0023: nMaps=15 nReduces=1 max=-1
+2015-03-24 18:32:51,843 INFO org.apache.hadoop.mapred.JobTracker: Job job_201502131503_0023 added successfully for user 'casa' to queue 'default'
+2015-03-24 18:32:51,843 INFO org.apache.hadoop.mapred.AuditLogger: USER=casa	IP=10.11.1.192	OPERATION=SUBMIT_JOB	TARGET=job_201502131503_0023	RESULT=SUCCESS
+2015-03-24 18:32:51,843 INFO org.apache.hadoop.mapred.JobTracker: Initializing job_201502131503_0023
+2015-03-24 18:32:51,844 INFO org.apache.hadoop.mapred.JobInProgress: Initializing job_201502131503_0023
+2015-03-24 18:32:51,876 INFO org.apache.hadoop.mapred.JobInProgress: jobToken generated and stored with users keys in /home/imdb/apacheHadoop/tmp/mapred/system/job_201502131503_0023/jobToken
+2015-03-24 18:32:51,885 INFO org.apache.hadoop.mapred.JobInProgress: Input size for job job_201502131503_0023 = 3174311237. Number of splits = 15
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000000 has split on node:/default-rack/90s191
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000001 has split on node:/default-rack/90s191
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000002 has split on node:/default-rack/90s191
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000003 has split on node:/default-rack/90s191
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000004 has split on node:/default-rack/90s190
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000005 has split on node:/default-rack/90s190
+2015-03-24 18:32:51,886 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000006 has split on node:/default-rack/90s196
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000007 has split on node:/default-rack/90s196
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000008 has split on node:/default-rack/90s196
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000009 has split on node:/default-rack/90s197
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000010 has split on node:/default-rack/90s191
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000011 has split on node:/default-rack/90s196
+2015-03-24 18:32:51,887 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000012 has split on node:/default-rack/90s194
+2015-03-24 18:32:51,888 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000013 has split on node:/default-rack/90s195
+2015-03-24 18:32:51,888 INFO org.apache.hadoop.mapred.JobInProgress: tip:task_201502131503_0023_m_000014 has split on node:/default-rack/90s190
+2015-03-24 18:32:51,888 INFO org.apache.hadoop.mapred.JobInProgress: job_201502131503_0023 LOCALITY_WAIT_FACTOR=0.75
+2015-03-24 18:32:51,888 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0023 initialized successfully with 15 map tasks and 1 reduce tasks.
+2015-03-24 18:32:52,143 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_SETUP) 'attempt_201502131503_0023_m_000016_0' to tip task_201502131503_0023_m_000016, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:33:01,153 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000016_0' has completed task_201502131503_0023_m_000016 successfully.
+2015-03-24 18:33:01,155 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000000_0' to tip task_201502131503_0023_m_000000, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:33:01,155 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000000
+2015-03-24 18:33:01,156 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000001_0' to tip task_201502131503_0023_m_000001, for tracker 'tracker_90s191:localhost/127.0.0.1:39202'
+2015-03-24 18:33:01,156 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000001
+2015-03-24 18:33:01,616 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000002_0' to tip task_201502131503_0023_m_000002, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:33:01,616 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000002
+2015-03-24 18:33:01,617 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000003_0' to tip task_201502131503_0023_m_000003, for tracker 'tracker_90s198:localhost/127.0.0.1:36516'
+2015-03-24 18:33:01,617 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000003
+2015-03-24 18:33:02,494 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000013_0' to tip task_201502131503_0023_m_000013, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:33:02,494 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000013
+2015-03-24 18:33:02,495 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000004_0' to tip task_201502131503_0023_m_000004, for tracker 'tracker_90s195:localhost/127.0.0.1:51074'
+2015-03-24 18:33:02,495 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000004
+2015-03-24 18:33:02,546 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000005_0' to tip task_201502131503_0023_m_000005, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:33:02,546 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000005
+2015-03-24 18:33:02,547 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000014_0' to tip task_201502131503_0023_m_000014, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:33:02,547 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000014
+2015-03-24 18:33:02,680 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000012_0' to tip task_201502131503_0023_m_000012, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:33:02,680 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000012
+2015-03-24 18:33:02,681 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000006_0' to tip task_201502131503_0023_m_000006, for tracker 'tracker_90s194:localhost/127.0.0.1:6811'
+2015-03-24 18:33:02,681 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000006
+2015-03-24 18:33:03,040 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000007_0' to tip task_201502131503_0023_m_000007, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:33:03,040 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000007
+2015-03-24 18:33:03,041 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000008_0' to tip task_201502131503_0023_m_000008, for tracker 'tracker_90s199:localhost/127.0.0.1:34783'
+2015-03-24 18:33:03,041 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000008
+2015-03-24 18:33:03,392 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000011_0' to tip task_201502131503_0023_m_000011, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:33:03,393 INFO org.apache.hadoop.mapred.JobInProgress: Choosing data-local task task_201502131503_0023_m_000011
+2015-03-24 18:33:03,393 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000009_0' to tip task_201502131503_0023_m_000009, for tracker 'tracker_90s196:localhost/127.0.0.1:41848'
+2015-03-24 18:33:03,393 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000009
+2015-03-24 18:33:03,817 INFO org.apache.hadoop.mapred.JobTracker: Adding task (MAP) 'attempt_201502131503_0023_m_000010_0' to tip task_201502131503_0023_m_000010, for tracker 'tracker_90s197:localhost/127.0.0.1:52109'
+2015-03-24 18:33:03,818 INFO org.apache.hadoop.mapred.JobInProgress: Choosing rack-local task task_201502131503_0023_m_000010
+2015-03-24 18:33:11,557 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000014_0' has completed task_201502131503_0023_m_000014 successfully.
+2015-03-24 18:33:11,559 INFO org.apache.hadoop.mapred.JobTracker: Adding task (REDUCE) 'attempt_201502131503_0023_r_000000_0' to tip task_201502131503_0023_r_000000, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:33:13,167 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000000_0' has completed task_201502131503_0023_m_000000 successfully.
+2015-03-24 18:33:13,168 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000001_0' has completed task_201502131503_0023_m_000001 successfully.
+2015-03-24 18:33:14,505 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000013_0' has completed task_201502131503_0023_m_000013 successfully.
+2015-03-24 18:33:14,694 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000012_0' has completed task_201502131503_0023_m_000012 successfully.
+2015-03-24 18:33:15,411 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000011_0' has completed task_201502131503_0023_m_000011 successfully.
+2015-03-24 18:33:15,829 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000010_0' has completed task_201502131503_0023_m_000010 successfully.
+2015-03-24 18:33:16,629 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000002_0' has completed task_201502131503_0023_m_000002 successfully.
+2015-03-24 18:33:16,630 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000003_0' has completed task_201502131503_0023_m_000003 successfully.
+2015-03-24 18:33:17,509 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000004_0' has completed task_201502131503_0023_m_000004 successfully.
+2015-03-24 18:33:17,566 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000005_0' has completed task_201502131503_0023_m_000005 successfully.
+2015-03-24 18:33:17,698 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000006_0' has completed task_201502131503_0023_m_000006 successfully.
+2015-03-24 18:33:18,058 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000007_0' has completed task_201502131503_0023_m_000007 successfully.
+2015-03-24 18:33:18,059 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000008_0' has completed task_201502131503_0023_m_000008 successfully.
+2015-03-24 18:33:18,415 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000009_0' has completed task_201502131503_0023_m_000009 successfully.
+2015-03-24 18:33:26,576 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_r_000000_0' has completed task_201502131503_0023_r_000000 successfully.
+2015-03-24 18:33:26,578 INFO org.apache.hadoop.mapred.JobTracker: Adding task (JOB_CLEANUP) 'attempt_201502131503_0023_m_000015_0' to tip task_201502131503_0023_m_000015, for tracker 'tracker_90s190:localhost/127.0.0.1:21284'
+2015-03-24 18:33:32,585 INFO org.apache.hadoop.mapred.JobInProgress: Task 'attempt_201502131503_0023_m_000015_0' has completed task_201502131503_0023_m_000015 successfully.
+2015-03-24 18:33:32,586 INFO org.apache.hadoop.mapred.JobInProgress: Job job_201502131503_0023 has completed successfully.
+2015-03-24 18:33:32,586 INFO org.apache.hadoop.mapred.JobInProgress$JobSummary: jobId=job_201502131503_0023,submitTime=1427193171808,launchTime=1427193171888,firstMapTaskLaunchTime=1427193181155,firstReduceTaskLaunchTime=1427193191559,firstJobSetupTaskLaunchTime=1427193172143,firstJobCleanupTaskLaunchTime=1427193206578,finishTime=1427193212586,numMaps=15,numSlotsPerMap=1,numReduces=1,numSlotsPerReduce=1,user=casa,queue=default,status=SUCCEEDED,mapSlotSeconds=151,reduceSlotsSeconds=13,clusterMapCapacity=32,clusterReduceCapacity=32,jobName=select count(*) from left32(Stage-1)
+2015-03-24 18:33:32,590 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0023_1427193171808_casa_select+count%28*%29+from+left32%28Stage-1%29 to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:33:32,590 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000005_0'
+2015-03-24 18:33:32,590 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000014_0'
+2015-03-24 18:33:32,590 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000015_0'
+2015-03-24 18:33:32,590 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_r_000000_0'
+2015-03-24 18:33:32,600 INFO org.apache.hadoop.mapred.JobHistory: Moving file:/home/imdb/tools/hadoop-1.0.3/logs/history/job_201502131503_0023_conf.xml to file:/home/imdb/tools/hadoop-1.0.3/logs/history/done/version-1/90s192_1423811034652_/2015/03/24/000000
+2015-03-24 18:33:32,712 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000006_0'
+2015-03-24 18:33:32,712 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000012_0'
+2015-03-24 18:33:33,073 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000007_0'
+2015-03-24 18:33:33,073 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000008_0'
+2015-03-24 18:33:33,428 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000009_0'
+2015-03-24 18:33:33,428 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000011_0'
+2015-03-24 18:33:33,845 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000010_0'
+2015-03-24 18:33:34,187 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000000_0'
+2015-03-24 18:33:34,187 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000001_0'
+2015-03-24 18:33:34,187 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000016_0'
+2015-03-24 18:33:34,645 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000002_0'
+2015-03-24 18:33:34,646 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000003_0'
+2015-03-24 18:33:35,524 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000004_0'
+2015-03-24 18:33:35,524 INFO org.apache.hadoop.mapred.JobTracker: Removing task 'attempt_201502131503_0023_m_000013_0'
+2015-03-24 19:15:59,966 INFO org.apache.hadoop.mapred.JobTracker: Lost tracker 'tracker_90s194:localhost/127.0.0.1:6811'

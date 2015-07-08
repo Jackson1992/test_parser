@@ -1,0 +1,77 @@
+2015-02-09 18:24:40,275 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = 90s192/10.11.1.192
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.0 -r 1335192; compiled by 'hortonfo' on Tue May  8 20:31:25 UTC 2012
+************************************************************/
+2015-02-09 18:24:40,435 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-02-09 18:24:40,449 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2015-02-09 18:24:40,450 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-02-09 18:24:40,450 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: JobTracker metrics system started
+2015-02-09 18:24:40,590 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source QueueMetrics,q=default registered.
+2015-02-09 18:24:40,872 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2015-02-09 18:24:40,873 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-02-09 18:24:40,875 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2015-02-09 18:24:40,876 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2015-02-09 18:24:40,876 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2015-02-09 18:24:40,876 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2015-02-09 18:24:40,885 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as imdb
+2015-02-09 18:24:40,903 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2015-02-09 18:24:40,905 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcDetailedActivityForPort9001 registered.
+2015-02-09 18:24:40,906 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source RpcActivityForPort9001 registered.
+2015-02-09 18:24:40,964 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2015-02-09 18:24:41,030 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2015-02-09 18:24:41,082 INFO org.apache.hadoop.util.NativeCodeLoader: Loaded the native-hadoop library
+2015-02-09 18:24:41,087 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2015-02-09 18:24:41,088 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2015-02-09 18:24:41,088 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2015-02-09 18:24:41,088 INFO org.mortbay.log: jetty-6.1.26
+2015-02-09 18:24:41,474 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2015-02-09 18:24:41,480 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2015-02-09 18:24:41,480 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source JobTrackerMetrics registered.
+2015-02-09 18:24:41,481 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 9001
+2015-02-09 18:24:41,481 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2015-02-09 18:24:41,615 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2015-02-09 18:24:41,695 INFO org.apache.hadoop.mapred.JobHistory: Creating DONE folder at file:/home/imdb/tools/hadoop-1.0.3/logs/history/done
+2015-02-09 18:24:41,698 INFO org.apache.hadoop.mapred.JobTracker: History server being initialized in embedded mode
+2015-02-09 18:24:41,701 INFO org.apache.hadoop.mapred.JobHistoryServer: Started job history server at: localhost:50030
+2015-02-09 18:24:41,701 INFO org.apache.hadoop.mapred.JobTracker: Job History Server web address: localhost:50030
+2015-02-09 18:24:41,705 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store is inactive
+2015-02-09 18:24:41,845 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2015-02-09 18:24:41,873 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2015-02-09 18:24:41,874 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2015-02-09 18:24:41,874 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2015-02-09 18:24:41,874 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2015-02-09 18:24:41,876 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2015-02-09 18:24:41,876 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 9001: starting
+2015-02-09 18:24:41,878 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 9001: starting
+2015-02-09 18:24:41,879 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 9001: starting
+2015-02-09 18:24:41,880 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 9001: starting
+2015-02-09 18:24:41,881 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 9001: starting
+2015-02-09 18:24:41,882 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 9001: starting
+2015-02-09 18:24:41,883 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 9001: starting
+2015-02-09 18:24:41,884 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 9001: starting
+2015-02-09 18:24:41,885 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2015-02-09 18:24:41,885 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 9001: starting
+2015-02-09 18:24:41,886 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 9001: starting
+2015-02-09 18:24:41,887 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 9001: starting
+2015-02-09 18:24:46,119 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s193
+2015-02-09 18:24:46,122 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s193:localhost/127.0.0.1:22824 to host 90s193
+2015-02-09 18:24:46,172 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s197
+2015-02-09 18:24:46,173 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s197:localhost/127.0.0.1:11527 to host 90s197
+2015-02-09 18:24:46,181 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s195
+2015-02-09 18:24:46,182 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s195:localhost/127.0.0.1:47230 to host 90s195
+2015-02-09 18:24:46,194 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s196
+2015-02-09 18:24:46,194 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s196:localhost/127.0.0.1:9933 to host 90s196
+2015-02-09 18:24:46,200 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s198
+2015-02-09 18:24:46,201 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s198:localhost/127.0.0.1:39701 to host 90s198
+2015-02-09 18:24:46,206 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s191
+2015-02-09 18:24:46,206 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s191:localhost/127.0.0.1:54942 to host 90s191
+2015-02-09 18:24:46,235 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s194
+2015-02-09 18:24:46,236 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s194:localhost/127.0.0.1:60747 to host 90s194
+2015-02-09 18:24:46,264 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s190
+2015-02-09 18:24:46,264 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s190:localhost/127.0.0.1:50398 to host 90s190
+2015-02-09 18:24:46,284 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/90s199
+2015-02-09 18:24:46,284 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_90s199:localhost/127.0.0.1:45985 to host 90s199

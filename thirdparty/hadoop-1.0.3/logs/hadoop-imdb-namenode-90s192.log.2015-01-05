@@ -1,0 +1,80 @@
+2015-01-05 16:23:41,465 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting NameNode
+STARTUP_MSG:   host = 90s192/10.11.1.192
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 1.0.3
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-1.0 -r 1335192; compiled by 'hortonfo' on Tue May  8 20:31:25 UTC 2012
+************************************************************/
+2015-01-05 16:23:41,647 INFO org.apache.hadoop.metrics2.impl.MetricsConfig: loaded properties from hadoop-metrics2.properties
+2015-01-05 16:23:41,661 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source MetricsSystem,sub=Stats registered.
+2015-01-05 16:23:41,663 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2015-01-05 16:23:41,663 INFO org.apache.hadoop.metrics2.impl.MetricsSystemImpl: NameNode metrics system started
+2015-01-05 16:23:41,824 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source ugi registered.
+2015-01-05 16:23:41,835 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source jvm registered.
+2015-01-05 16:23:41,836 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source NameNode registered.
+2015-01-05 16:23:41,856 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-01-05 16:23:41,856 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 19.63 MB
+2015-01-05 16:23:41,856 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-01-05 16:23:41,856 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-01-05 16:23:41,879 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-01-05 16:23:41,879 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-01-05 16:23:41,880 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-01-05 16:23:41,885 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-01-05 16:23:41,885 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-01-05 16:23:42,082 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Registered FSNamesystemStateMBean and NameNodeMXBean
+2015-01-05 16:23:42,105 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-01-05 16:23:42,115 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 1
+2015-01-05 16:23:42,120 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-01-05 16:23:42,120 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 loaded in 0 seconds.
+2015-01-05 16:23:42,121 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/hadoop/data1/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-01-05 16:23:42,122 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 saved in 0 seconds.
+2015-01-05 16:23:42,145 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 saved in 0 seconds.
+2015-01-05 16:23:42,149 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 saved in 0 seconds.
+2015-01-05 16:23:42,154 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 110 saved in 0 seconds.
+2015-01-05 16:23:42,160 INFO org.apache.hadoop.hdfs.server.namenode.NameCache: initialized with 0 entries 0 lookups
+2015-01-05 16:23:42,160 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Finished loading FSImage in 290 msecs
+2015-01-05 16:23:42,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Total number of blocks = 0
+2015-01-05 16:23:42,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of invalid blocks = 0
+2015-01-05 16:23:42,178 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of under-replicated blocks = 0
+2015-01-05 16:23:42,179 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of  over-replicated blocks = 0
+2015-01-05 16:23:42,179 INFO org.apache.hadoop.hdfs.StateChange: STATE* Safe mode termination scan for invalid, over- and under-replicated blocks completed in 16 msec
+2015-01-05 16:23:42,179 INFO org.apache.hadoop.hdfs.StateChange: STATE* Leaving safe mode after 0 secs.
+2015-01-05 16:23:42,179 INFO org.apache.hadoop.hdfs.StateChange: STATE* Network topology has 0 racks and 0 datanodes
+2015-01-05 16:23:42,179 INFO org.apache.hadoop.hdfs.StateChange: STATE* UnderReplicatedBlocks has 0 blocks
+2015-01-05 16:23:42,188 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2015-01-05 16:23:42,190 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 2 msec
+2015-01-05 16:23:42,190 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 2 msec processing time, 2 msec clock time, 1 cycles
+2015-01-05 16:23:42,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: First cycle completed 0 blocks in 3 msec
+2015-01-05 16:23:42,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: InvalidateQueue QueueProcessingStatistics: Queue flush completed 0 blocks in 3 msec processing time, 3 msec clock time, 1 cycles
+2015-01-05 16:23:42,194 INFO org.apache.hadoop.metrics2.impl.MetricsSourceAdapter: MBean for source FSNamesystemMetrics registered.
+2015-01-05 16:23:42,206 WARN org.apache.hadoop.hdfs.server.namenode.FSNamesystem: ReplicationMonitor thread received InterruptedException.java.lang.InterruptedException: sleep interrupted
+2015-01-05 16:23:42,207 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-01-05 16:23:42,208 INFO org.apache.hadoop.hdfs.server.namenode.DecommissionManager: Interrupted Monitor
+java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at org.apache.hadoop.hdfs.server.namenode.DecommissionManager$Monitor.run(DecommissionManager.java:65)
+	at java.lang.Thread.run(Thread.java:745)
+2015-01-05 16:23:42,210 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: java.net.BindException: Problem binding to 90s192/10.11.1.192:9000 : Address already in use
+	at org.apache.hadoop.ipc.Server.bind(Server.java:227)
+	at org.apache.hadoop.ipc.Server$Listener.<init>(Server.java:301)
+	at org.apache.hadoop.ipc.Server.<init>(Server.java:1483)
+	at org.apache.hadoop.ipc.RPC$Server.<init>(RPC.java:545)
+	at org.apache.hadoop.ipc.RPC.getServer(RPC.java:506)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:294)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:496)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1279)
+	at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1288)
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:444)
+	at sun.nio.ch.Net.bind(Net.java:436)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:214)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.hadoop.ipc.Server.bind(Server.java:225)
+	... 8 more
+
+2015-01-05 16:23:42,211 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: SHUTDOWN_MSG: 
+/************************************************************
+SHUTDOWN_MSG: Shutting down NameNode at 90s192/10.11.1.192
+************************************************************/

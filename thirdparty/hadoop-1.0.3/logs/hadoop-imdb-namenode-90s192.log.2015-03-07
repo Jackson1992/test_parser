@@ -1,0 +1,468 @@
+2015-03-07 00:00:05,028 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 00:09:48,496 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 00:09:48,497 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 00:09:48,559 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 00:09:48,559 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 00:11:36,888 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 00:17:39,802 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 00:32:53,479 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 00:34:43,962 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 00:41:37,062 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 00:53:16,381 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 00:56:07,922 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 01:00:06,199 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 01:09:48,603 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 01:09:48,603 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 01:09:48,690 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 01:09:48,690 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 01:11:38,061 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 01:17:37,981 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 01:32:54,659 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 01:34:42,133 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 0 msecs
+2015-03-07 01:41:35,260 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 01:53:17,539 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 01:56:09,066 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 02:00:04,377 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 02:09:48,751 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 02:09:48,751 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 02:09:48,803 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 02:09:48,803 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 02:11:39,234 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 02:17:39,171 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 02:32:52,839 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 02:34:43,316 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 02:41:36,449 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 02:53:15,697 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 02:56:10,212 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 03:00:05,558 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 03:09:48,843 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 03:09:48,843 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 03:09:48,955 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 03:09:48,955 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 0 
+2015-03-07 03:11:37,406 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 03:17:40,352 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 03:32:54,020 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 03:34:41,489 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 03:41:34,645 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 03:53:16,857 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 03:56:08,356 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 04:00:06,731 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 04:09:48,996 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 04:09:48,996 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 04:09:49,053 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 04:09:49,054 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 04:11:38,579 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 04:17:38,532 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 04:32:55,200 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 04:34:42,663 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 04:41:35,842 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 04:53:15,015 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 04:56:09,499 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 05:00:04,902 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 05:09:49,093 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 05:09:49,094 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 05:09:49,148 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 05:09:49,149 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 05:11:36,751 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 05:17:39,711 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 05:32:53,380 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 05:34:43,836 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 0 msecs
+2015-03-07 05:41:37,032 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 05:53:16,176 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 05:56:07,643 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 06:00:06,081 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 06:09:49,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 06:09:49,193 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 06:09:49,258 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 06:09:49,258 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 06:11:37,924 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 06:17:37,898 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 06:32:54,560 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 06:34:42,018 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 0 msecs
+2015-03-07 06:41:35,219 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 06:53:17,326 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 06:56:08,788 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 07:00:04,259 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 07:09:49,314 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 07:09:49,314 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 07:09:49,414 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 07:09:49,415 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 07:11:39,097 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 07:17:39,088 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 07:32:52,739 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 07:34:43,192 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 07:41:36,416 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 07:53:15,486 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 07:56:09,933 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 08:00:05,440 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 08:09:49,453 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 08:09:49,453 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 08:09:49,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 08:09:49,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 08:11:37,268 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 08:17:40,269 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 08:32:53,921 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 08:34:41,365 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 08:41:34,612 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 08:53:16,646 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 08:56:08,078 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 09:00:06,611 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 09:09:49,542 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 09:09:49,542 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 09:09:49,594 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 09:09:49,595 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 09:11:38,441 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 09:17:38,448 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 09:32:55,102 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 09:34:42,539 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 09:41:35,802 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 09:53:14,797 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 09:56:09,223 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 10:00:04,791 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 10:09:49,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 10:09:49,639 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 10:09:49,703 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 10:09:49,704 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 10:11:36,613 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 10:17:39,636 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 10:32:53,291 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 10:34:40,723 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 10:41:37,016 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 10:53:15,958 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 10:56:07,383 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 11:00:05,963 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 11:09:49,778 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 11:09:49,778 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 11:09:49,893 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 11:09:49,894 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 11:11:37,787 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 11:17:37,824 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 11:32:54,472 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 11:34:41,905 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 0 msecs
+2015-03-07 11:41:35,214 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 11:53:17,110 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 11:56:08,527 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 12:00:04,143 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 12:09:49,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 12:09:49,940 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 12:09:49,994 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 12:09:49,994 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 12:11:38,961 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 12:17:39,012 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 12:32:52,651 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 12:34:43,087 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 12:41:36,414 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 12:53:15,261 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 12:56:09,671 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 13:00:05,316 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 13:07:22,323 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 13:09:50,048 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 13:09:50,049 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 13:09:50,105 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 13:09:50,105 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 13:11:37,133 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 13:17:40,202 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 13:32:53,831 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 13:34:41,268 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 0 msecs
+2015-03-07 13:41:34,603 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 13:53:16,413 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 13:56:07,816 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 14:00:06,488 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 14:09:50,147 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 14:09:50,148 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 14:09:50,212 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 14:09:50,212 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 14:11:38,307 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 1 msecs
+2015-03-07 14:17:38,381 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 14:32:55,012 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 14:34:42,441 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 14:41:35,792 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 14:53:14,563 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 14:56:08,959 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 15:00:04,658 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 15:09:50,253 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 15:09:50,253 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 15:09:50,322 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 15:09:50,323 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 15:11:36,479 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 15:17:39,572 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 15:32:53,191 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 15:34:40,623 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 15:41:36,989 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 0 msecs
+2015-03-07 15:53:15,713 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 15:56:07,104 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 16:00:05,840 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 16:09:50,370 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 16:09:50,371 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 16:09:50,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 16:09:50,438 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 0 
+2015-03-07 16:11:37,652 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 16:17:37,750 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 16:32:54,372 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 16:34:41,795 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 16:41:35,186 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 16:53:16,874 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 16:56:08,249 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 2 msecs
+2015-03-07 17:00:04,011 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 1 msecs
+2015-03-07 17:09:50,485 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 17:09:50,486 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 17:09:50,562 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 17:09:50,562 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 1 
+2015-03-07 17:11:38,825 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 1 msecs
+2015-03-07 17:17:38,938 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 0 msecs
+2015-03-07 17:32:52,552 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 1 msecs
+2015-03-07 17:34:42,978 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 17:41:36,385 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 17:53:15,024 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 0 msecs
+2015-03-07 17:56:09,393 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 18:00:05,191 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1278, processing time: 0 msecs
+2015-03-07 18:09:50,609 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 18:09:50,609 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 18:09:50,728 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 18:09:50,729 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 0 
+2015-03-07 18:11:36,996 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 8, processing time: 0 msecs
+2015-03-07 18:17:40,129 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1295, processing time: 1 msecs
+2015-03-07 18:32:53,732 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1247, processing time: 0 msecs
+2015-03-07 18:34:41,152 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1319, processing time: 1 msecs
+2015-03-07 18:41:34,574 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1276, processing time: 1 msecs
+2015-03-07 18:53:16,175 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1365, processing time: 1 msecs
+2015-03-07 18:56:07,537 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3890, processing time: 1 msecs
+2015-03-07 18:57:27,153 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 20 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 18:57:27,162 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/README.md. blk_7242309585770195339_1322
+2015-03-07 18:57:27,227 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_7242309585770195339_1322 size 3629
+2015-03-07 18:57:27,228 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_7242309585770195339_1322 size 3629
+2015-03-07 18:57:27,230 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/README.md from client DFSClient_-1799220168
+2015-03-07 18:57:27,231 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/README.md is closed by DFSClient_-1799220168
+2015-03-07 18:59:20,577 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 23 Total time for transactions(ms): 2Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 1 1 
+2015-03-07 18:59:21,025 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output0/_temporary/_attempt_201503071859_0000_m_000001_1/part-00001. blk_1007872734584069720_1324
+2015-03-07 18:59:21,027 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output0/_temporary/_attempt_201503071859_0000_m_000000_0/part-00000. blk_-2478299784207141194_1324
+2015-03-07 18:59:21,076 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_-2478299784207141194_1324 size 1816
+2015-03-07 18:59:21,078 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-2478299784207141194_1324 size 1816
+2015-03-07 18:59:21,080 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-2478299784207141194_1324 size 1816
+2015-03-07 18:59:21,082 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output0/_temporary/_attempt_201503071859_0000_m_000000_0/part-00000 from client DFSClient_-2047968867
+2015-03-07 18:59:21,083 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output0/_temporary/_attempt_201503071859_0000_m_000000_0/part-00000 is closed by DFSClient_-2047968867
+2015-03-07 18:59:21,114 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_1007872734584069720_1324 size 1804
+2015-03-07 18:59:21,116 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_1007872734584069720_1324 size 1804
+2015-03-07 18:59:21,118 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_1007872734584069720_1324 size 1804
+2015-03-07 18:59:21,119 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output0/_temporary/_attempt_201503071859_0000_m_000001_1/part-00001 from client DFSClient_-2047968867
+2015-03-07 18:59:21,120 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output0/_temporary/_attempt_201503071859_0000_m_000001_1/part-00001 is closed by DFSClient_-2047968867
+2015-03-07 18:59:21,175 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output0/_SUCCESS from client DFSClient_-2047968867
+2015-03-07 18:59:21,176 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output0/_SUCCESS is closed by DFSClient_-2047968867
+2015-03-07 19:00:06,365 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1279, processing time: 1 msecs
+2015-03-07 19:03:42,563 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 41 Total time for transactions(ms): 6Number of transactions batched in Syncs: 2 Number of syncs: 16 SyncTimes(ms): 3 2 
+2015-03-07 19:03:42,572 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_-4128690167418424796_1326
+2015-03-07 19:03:43,380 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_-4128690167418424796_1326 size 67108864
+2015-03-07 19:03:43,382 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-4128690167418424796_1326 size 67108864
+2015-03-07 19:03:43,384 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_-8246561656076767000_1326
+2015-03-07 19:03:43,998 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_-8246561656076767000_1326 size 67108864
+2015-03-07 19:03:44,000 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-8246561656076767000_1326 size 67108864
+2015-03-07 19:03:44,002 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_-4410166826377551901_1326
+2015-03-07 19:03:44,632 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-4410166826377551901_1326 size 67108864
+2015-03-07 19:03:44,634 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-4410166826377551901_1326 size 67108864
+2015-03-07 19:03:44,636 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_5866221897024053708_1326
+2015-03-07 19:03:45,256 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_5866221897024053708_1326 size 67108864
+2015-03-07 19:03:45,257 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_5866221897024053708_1326 size 67108864
+2015-03-07 19:03:45,259 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_-3315573675563859335_1326
+2015-03-07 19:03:45,858 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-3315573675563859335_1326 size 67108864
+2015-03-07 19:03:45,860 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-3315573675563859335_1326 size 67108864
+2015-03-07 19:03:45,862 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/input. blk_-1937109302324431577_1326
+2015-03-07 19:03:45,977 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-1937109302324431577_1326 size 11859850
+2015-03-07 19:03:45,978 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-1937109302324431577_1326 size 11859850
+2015-03-07 19:03:45,980 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/input from client DFSClient_1888394477
+2015-03-07 19:03:45,980 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/input is closed by DFSClient_1888394477
+2015-03-07 19:04:58,878 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 44 Total time for transactions(ms): 6Number of transactions batched in Syncs: 2 Number of syncs: 18 SyncTimes(ms): 4 2 
+2015-03-07 19:04:59,721 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000002_2/part-00002. blk_-8917273839403758370_1332
+2015-03-07 19:04:59,725 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000004_4/part-00004. blk_6240997279020144225_1332
+2015-03-07 19:04:59,730 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000000_0/part-00000. blk_-4212202635063014072_1332
+2015-03-07 19:04:59,741 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000003_3/part-00003. blk_5209961196000944707_1332
+2015-03-07 19:04:59,744 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000001_1/part-00001. blk_8725273180581625481_1332
+2015-03-07 19:04:59,749 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output1/_temporary/_attempt_201503071904_0000_m_000005_5/part-00005. blk_-1600584135815499519_1332
+2015-03-07 19:05:04,612 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-1600584135815499519_1332 size 11830436
+2015-03-07 19:05:04,613 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_-1600584135815499519_1332 size 11830436
+2015-03-07 19:05:04,615 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-1600584135815499519_1332 size 11830436
+2015-03-07 19:05:04,618 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000005_5/part-00005 from client DFSClient_1282926444
+2015-03-07 19:05:04,618 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000005_5/part-00005 is closed by DFSClient_1282926444
+2015-03-07 19:05:18,234 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-8917273839403758370_1332 size 66942470
+2015-03-07 19:05:18,235 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-8917273839403758370_1332 size 66942470
+2015-03-07 19:05:18,237 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-8917273839403758370_1332 size 66942470
+2015-03-07 19:05:18,241 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000002_2/part-00002 from client DFSClient_1282926444
+2015-03-07 19:05:18,241 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000002_2/part-00002 is closed by DFSClient_1282926444
+2015-03-07 19:05:18,333 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_6240997279020144225_1332 size 66942428
+2015-03-07 19:05:18,335 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_6240997279020144225_1332 size 66942428
+2015-03-07 19:05:18,336 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_6240997279020144225_1332 size 66942428
+2015-03-07 19:05:18,350 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000004_4/part-00004 from client DFSClient_1282926444
+2015-03-07 19:05:18,351 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000004_4/part-00004 is closed by DFSClient_1282926444
+2015-03-07 19:05:18,878 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_5209961196000944707_1332 size 66942362
+2015-03-07 19:05:18,879 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_5209961196000944707_1332 size 66942362
+2015-03-07 19:05:18,881 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_5209961196000944707_1332 size 66942362
+2015-03-07 19:05:18,884 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000003_3/part-00003 from client DFSClient_1282926444
+2015-03-07 19:05:18,884 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000003_3/part-00003 is closed by DFSClient_1282926444
+2015-03-07 19:05:19,087 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_8725273180581625481_1332 size 66942411
+2015-03-07 19:05:19,088 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_8725273180581625481_1332 size 66942411
+2015-03-07 19:05:19,090 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_8725273180581625481_1332 size 66942411
+2015-03-07 19:05:19,091 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000001_1/part-00001 from client DFSClient_1282926444
+2015-03-07 19:05:19,091 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000001_1/part-00001 is closed by DFSClient_1282926444
+2015-03-07 19:05:19,148 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-4212202635063014072_1332 size 66942493
+2015-03-07 19:05:19,149 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-4212202635063014072_1332 size 66942493
+2015-03-07 19:05:19,151 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-4212202635063014072_1332 size 66942493
+2015-03-07 19:05:19,153 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000000_0/part-00000 from client DFSClient_1282926444
+2015-03-07 19:05:19,153 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_temporary/_attempt_201503071904_0000_m_000000_0/part-00000 is closed by DFSClient_1282926444
+2015-03-07 19:05:19,191 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output1/_SUCCESS from client DFSClient_1282926444
+2015-03-07 19:05:19,191 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output1/_SUCCESS is closed by DFSClient_1282926444
+2015-03-07 19:07:00,322 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 86 Total time for transactions(ms): 7Number of transactions batched in Syncs: 8 Number of syncs: 52 SyncTimes(ms): 15 9 
+2015-03-07 19:07:01,077 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000005_5/part-00005. blk_8810095457742031797_1339
+2015-03-07 19:07:01,081 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000001_1/part-00001. blk_-8093517838313489285_1339
+2015-03-07 19:07:01,082 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000002_2/part-00002. blk_1772508843069237767_1339
+2015-03-07 19:07:01,096 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000003_3/part-00003. blk_-2764250729081723201_1339
+2015-03-07 19:07:01,103 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000004_4/part-00004. blk_5154703712992226564_1339
+2015-03-07 19:07:01,121 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output2/_temporary/_attempt_201503071907_0000_m_000000_0/part-00000. blk_946608989629670610_1339
+2015-03-07 19:07:04,775 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_8810095457742031797_1339 size 11830436
+2015-03-07 19:07:04,776 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_8810095457742031797_1339 size 11830436
+2015-03-07 19:07:04,778 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_8810095457742031797_1339 size 11830436
+2015-03-07 19:07:04,781 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000005_5/part-00005 from client DFSClient_-1591976905
+2015-03-07 19:07:04,781 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000005_5/part-00005 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,334 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-2764250729081723201_1339 size 66942362
+2015-03-07 19:07:18,336 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-2764250729081723201_1339 size 66942362
+2015-03-07 19:07:18,338 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_-2764250729081723201_1339 size 66942362
+2015-03-07 19:07:18,341 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000003_3/part-00003 from client DFSClient_-1591976905
+2015-03-07 19:07:18,341 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000003_3/part-00003 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,542 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_1772508843069237767_1339 size 66942470
+2015-03-07 19:07:18,544 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_1772508843069237767_1339 size 66942470
+2015-03-07 19:07:18,545 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_1772508843069237767_1339 size 66942470
+2015-03-07 19:07:18,548 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000002_2/part-00002 from client DFSClient_-1591976905
+2015-03-07 19:07:18,548 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000002_2/part-00002 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,578 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_5154703712992226564_1339 size 66942428
+2015-03-07 19:07:18,579 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_5154703712992226564_1339 size 66942428
+2015-03-07 19:07:18,581 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_5154703712992226564_1339 size 66942428
+2015-03-07 19:07:18,583 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000004_4/part-00004 from client DFSClient_-1591976905
+2015-03-07 19:07:18,583 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000004_4/part-00004 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,866 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_-8093517838313489285_1339 size 66942411
+2015-03-07 19:07:18,868 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-8093517838313489285_1339 size 66942411
+2015-03-07 19:07:18,869 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-8093517838313489285_1339 size 66942411
+2015-03-07 19:07:18,871 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000001_1/part-00001 from client DFSClient_-1591976905
+2015-03-07 19:07:18,871 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000001_1/part-00001 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,872 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_946608989629670610_1339 size 66942493
+2015-03-07 19:07:18,874 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_946608989629670610_1339 size 66942493
+2015-03-07 19:07:18,875 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_946608989629670610_1339 size 66942493
+2015-03-07 19:07:18,877 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000000_0/part-00000 from client DFSClient_-1591976905
+2015-03-07 19:07:18,878 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_temporary/_attempt_201503071907_0000_m_000000_0/part-00000 is closed by DFSClient_-1591976905
+2015-03-07 19:07:18,918 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output2/_SUCCESS from client DFSClient_-1591976905
+2015-03-07 19:07:18,919 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output2/_SUCCESS is closed by DFSClient_-1591976905
+2015-03-07 19:09:50,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 19:09:50,773 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 126 Total time for transactions(ms): 10Number of transactions batched in Syncs: 14 Number of syncs: 86 SyncTimes(ms): 20 13 
+2015-03-07 19:09:50,842 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 19:09:50,843 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 0 1 
+2015-03-07 19:11:38,170 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 17, processing time: 0 msecs
+2015-03-07 19:17:16,256 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 2 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 19:17:18,046 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000001_1/part-00001. blk_-2182261443890661151_1345
+2015-03-07 19:17:18,137 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000003_3/part-00003. blk_-748811536544263760_1345
+2015-03-07 19:17:18,139 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000005_5/part-00005. blk_-3678693789283354847_1345
+2015-03-07 19:17:18,140 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000004_4/part-00004. blk_5510664214225022352_1345
+2015-03-07 19:17:18,141 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000000_2/part-00000. blk_-5211345484333108862_1345
+2015-03-07 19:17:18,466 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /home/data/output3/_temporary/_attempt_201503071917_0000_m_000002_0/part-00002. blk_-8173598149580534421_1346
+2015-03-07 19:17:21,025 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-3678693789283354847_1345 size 11830436
+2015-03-07 19:17:21,027 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-3678693789283354847_1345 size 11830436
+2015-03-07 19:17:21,029 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-3678693789283354847_1345 size 11830436
+2015-03-07 19:17:21,031 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000005_5/part-00005 from client DFSClient_-175642309
+2015-03-07 19:17:21,032 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000005_5/part-00005 is closed by DFSClient_-175642309
+2015-03-07 19:17:25,459 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_-2182261443890661151_1345 size 66942411
+2015-03-07 19:17:25,460 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-2182261443890661151_1345 size 66942411
+2015-03-07 19:17:25,462 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.194:50010 is added to blk_-2182261443890661151_1345 size 66942411
+2015-03-07 19:17:25,464 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000001_1/part-00001 from client DFSClient_1230125356
+2015-03-07 19:17:25,465 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000001_1/part-00001 is closed by DFSClient_1230125356
+2015-03-07 19:17:26,234 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.196:50010 is added to blk_-8173598149580534421_1346 size 66942470
+2015-03-07 19:17:26,236 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_-8173598149580534421_1346 size 66942470
+2015-03-07 19:17:26,238 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-8173598149580534421_1346 size 66942470
+2015-03-07 19:17:26,240 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000002_0/part-00002 from client DFSClient_-1729009697
+2015-03-07 19:17:26,241 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000002_0/part-00002 is closed by DFSClient_-1729009697
+2015-03-07 19:17:28,456 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.198:50010 is added to blk_5510664214225022352_1345 size 66942428
+2015-03-07 19:17:28,458 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_5510664214225022352_1345 size 66942428
+2015-03-07 19:17:28,460 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_5510664214225022352_1345 size 66942428
+2015-03-07 19:17:28,462 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000004_4/part-00004 from client DFSClient_-175642309
+2015-03-07 19:17:28,462 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000004_4/part-00004 is closed by DFSClient_-175642309
+2015-03-07 19:17:28,501 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-748811536544263760_1345 size 66942362
+2015-03-07 19:17:28,503 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_-748811536544263760_1345 size 66942362
+2015-03-07 19:17:28,505 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-748811536544263760_1345 size 66942362
+2015-03-07 19:17:28,507 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000003_3/part-00003 from client DFSClient_-175642309
+2015-03-07 19:17:28,507 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000003_3/part-00003 is closed by DFSClient_-175642309
+2015-03-07 19:17:28,875 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.193:50010 is added to blk_-5211345484333108862_1345 size 66942493
+2015-03-07 19:17:28,877 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-5211345484333108862_1345 size 66942493
+2015-03-07 19:17:28,879 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.191:50010 is added to blk_-5211345484333108862_1345 size 66942493
+2015-03-07 19:17:28,880 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000000_2/part-00000 from client DFSClient_-175642309
+2015-03-07 19:17:28,881 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_temporary/_attempt_201503071917_0000_m_000000_2/part-00000 is closed by DFSClient_-175642309
+2015-03-07 19:17:28,947 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /home/data/output3/_SUCCESS from client DFSClient_-2021377928
+2015-03-07 19:17:28,948 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /home/data/output3/_SUCCESS is closed by DFSClient_-2021377928
+2015-03-07 19:17:38,309 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1309, processing time: 1 msecs
+2015-03-07 19:32:54,915 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1257, processing time: 1 msecs
+2015-03-07 19:34:42,336 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1327, processing time: 0 msecs
+2015-03-07 19:41:35,764 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1286, processing time: 1 msecs
+2015-03-07 19:53:14,333 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1371, processing time: 0 msecs
+2015-03-07 19:56:08,680 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3898, processing time: 1 msecs
+2015-03-07 19:56:41,578 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 46 Total time for transactions(ms): 6Number of transactions batched in Syncs: 6 Number of syncs: 34 SyncTimes(ms): 7 11 
+2015-03-07 20:00:04,539 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1286, processing time: 0 msecs
+2015-03-07 20:09:50,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 20:09:50,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 46 Total time for transactions(ms): 6Number of transactions batched in Syncs: 6 Number of syncs: 35 SyncTimes(ms): 8 11 
+2015-03-07 20:09:50,977 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 20:09:50,977 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 20:11:36,342 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 18, processing time: 0 msecs
+2015-03-07 20:17:39,490 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1309, processing time: 0 msecs
+2015-03-07 20:26:22,119 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 1 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 20:32:30,631 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 2 Total time for transactions(ms): 1Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 20:32:53,095 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1257, processing time: 1 msecs
+2015-03-07 20:34:40,518 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1327, processing time: 0 msecs
+2015-03-07 20:35:09,665 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 3 Total time for transactions(ms): 2Number of transactions batched in Syncs: 0 Number of syncs: 2 SyncTimes(ms): 1 1 
+2015-03-07 20:37:43,091 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 6 Total time for transactions(ms): 3Number of transactions batched in Syncs: 0 Number of syncs: 3 SyncTimes(ms): 1 1 
+2015-03-07 20:37:43,135 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hive-casa/hive_2015-03-07_20-37-43_045_6134988512157545321-1/-ext-10000/kmeans_data.txt. blk_-186765897338489063_1348
+2015-03-07 20:37:43,179 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_-186765897338489063_1348 size 72
+2015-03-07 20:37:43,181 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.195:50010 is added to blk_-186765897338489063_1348 size 72
+2015-03-07 20:37:43,183 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /tmp/hive-casa/hive_2015-03-07_20-37-43_045_6134988512157545321-1/-ext-10000/kmeans_data.txt from client DFSClient_632278854
+2015-03-07 20:37:43,184 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hive-casa/hive_2015-03-07_20-37-43_045_6134988512157545321-1/-ext-10000/kmeans_data.txt is closed by DFSClient_632278854
+2015-03-07 20:41:36,959 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1286, processing time: 0 msecs
+2015-03-07 20:42:05,629 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 16 Total time for transactions(ms): 4Number of transactions batched in Syncs: 3 Number of syncs: 12 SyncTimes(ms): 4 2 
+2015-03-07 20:42:05,677 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.allocateBlock: /tmp/hive-casa/hive_2015-03-07_20-42-05_155_2978876175518311654-1/-ext-10000/kmeans_data.txt. blk_-5353121557944680769_1349
+2015-03-07 20:42:05,712 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.190:50010 is added to blk_-5353121557944680769_1349 size 72
+2015-03-07 20:42:05,714 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.11.1.197:50010 is added to blk_-5353121557944680769_1349 size 72
+2015-03-07 20:42:05,716 INFO org.apache.hadoop.hdfs.StateChange: Removing lease on  file /tmp/hive-casa/hive_2015-03-07_20-42-05_155_2978876175518311654-1/-ext-10000/kmeans_data.txt from client DFSClient_360601486
+2015-03-07 20:42:05,716 INFO org.apache.hadoop.hdfs.StateChange: DIR* NameSystem.completeFile: file /tmp/hive-casa/hive_2015-03-07_20-42-05_155_2978876175518311654-1/-ext-10000/kmeans_data.txt is closed by DFSClient_360601486
+2015-03-07 20:42:05,814 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-186765897338489063 is added to invalidSet of 10.11.1.190:50010
+2015-03-07 20:42:05,814 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* NameSystem.addToInvalidates: blk_-186765897338489063 is added to invalidSet of 10.11.1.195:50010
+2015-03-07 20:42:06,141 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.11.1.190:50010 to delete  blk_-186765897338489063_1348
+2015-03-07 20:42:06,142 INFO org.apache.hadoop.hdfs.StateChange: BLOCK* ask 10.11.1.195:50010 to delete  blk_-186765897338489063_1348
+2015-03-07 20:53:15,497 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1372, processing time: 0 msecs
+2015-03-07 20:56:06,822 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3898, processing time: 1 msecs
+2015-03-07 21:00:05,711 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1286, processing time: 0 msecs
+2015-03-07 21:09:51,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 21:09:51,018 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 27 Total time for transactions(ms): 5Number of transactions batched in Syncs: 8 Number of syncs: 23 SyncTimes(ms): 8 3 
+2015-03-07 21:09:51,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 21:09:51,079 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 0 
+2015-03-07 21:11:37,515 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 18, processing time: 0 msecs
+2015-03-07 21:17:37,670 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1309, processing time: 0 msecs
+2015-03-07 21:32:54,276 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1258, processing time: 1 msecs
+2015-03-07 21:34:41,701 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1327, processing time: 1 msecs
+2015-03-07 21:41:35,155 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1286, processing time: 1 msecs
+2015-03-07 21:53:16,648 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1372, processing time: 1 msecs
+2015-03-07 21:56:07,965 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3898, processing time: 2 msecs
+2015-03-07 22:00:03,889 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1286, processing time: 1 msecs
+2015-03-07 22:09:51,121 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 22:09:51,122 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 22:09:51,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 22:09:51,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 22:11:38,689 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 18, processing time: 0 msecs
+2015-03-07 22:17:38,851 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1309, processing time: 1 msecs
+2015-03-07 22:32:52,456 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1258, processing time: 1 msecs
+2015-03-07 22:34:42,882 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1327, processing time: 0 msecs
+2015-03-07 22:41:36,351 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1286, processing time: 1 msecs
+2015-03-07 22:53:14,808 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1372, processing time: 1 msecs
+2015-03-07 22:56:06,107 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3898, processing time: 1 msecs
+2015-03-07 23:00:05,069 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.196:50010, blocks: 1286, processing time: 1 msecs
+2015-03-07 23:09:51,287 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll Edit Log from 10.11.1.192
+2015-03-07 23:09:51,287 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 0 
+2015-03-07 23:09:51,371 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Roll FSImage from 10.11.1.192
+2015-03-07 23:09:51,372 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 1 SyncTimes(ms): 1 1 
+2015-03-07 23:11:36,860 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.194:50010, blocks: 18, processing time: 0 msecs
+2015-03-07 23:17:40,040 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.191:50010, blocks: 1309, processing time: 1 msecs
+2015-03-07 23:32:53,637 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.197:50010, blocks: 1258, processing time: 1 msecs
+2015-03-07 23:34:41,063 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.193:50010, blocks: 1327, processing time: 1 msecs
+2015-03-07 23:41:34,546 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.198:50010, blocks: 1286, processing time: 0 msecs
+2015-03-07 23:53:15,959 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.190:50010, blocks: 1372, processing time: 0 msecs
+2015-03-07 23:56:07,251 INFO org.apache.hadoop.hdfs.StateChange: *BLOCK* NameSystem.processReport: from 10.11.1.195:50010, blocks: 3898, processing time: 2 msecs

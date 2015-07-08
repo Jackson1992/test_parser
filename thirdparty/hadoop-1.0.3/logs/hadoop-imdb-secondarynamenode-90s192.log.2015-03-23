@@ -1,0 +1,504 @@
+2015-03-23 00:15:26,318 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 00:15:26,332 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 00:15:26,334 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 00:15:26,334 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 00:15:26,334 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 00:15:26,334 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 00:15:26,334 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 00:15:26,386 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 00:15:26,387 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 00:15:26,399 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 00:15:26,399 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 00:15:26,399 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 00:15:26,406 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 00:15:26,418 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 00:15:26,422 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427040926000:1427037326282
+2015-03-23 00:15:26,443 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 01:15:26,476 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 01:15:26,499 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 01:15:26,500 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 01:15:26,500 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 01:15:26,501 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 01:15:26,501 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 01:15:26,501 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 01:15:26,503 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 01:15:26,504 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 01:15:26,520 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 01:15:26,521 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 01:15:26,521 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 01:15:26,533 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 01:15:26,548 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 01:15:26,552 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427044526000:1427040926436
+2015-03-23 01:15:26,572 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 02:15:26,607 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 02:15:26,629 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 02:15:26,631 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 02:15:26,631 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 02:15:26,631 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 02:15:26,631 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 02:15:26,631 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 02:15:26,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 02:15:26,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 02:15:26,633 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 02:15:26,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 02:15:26,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 02:15:26,634 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 02:15:26,635 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 02:15:26,651 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 02:15:26,651 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 02:15:26,651 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 02:15:26,661 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 02:15:26,676 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 02:15:26,680 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427048126000:1427044526565
+2015-03-23 02:15:26,700 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 03:15:26,733 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 03:15:26,760 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 03:15:26,762 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 269 bytes.
+2015-03-23 03:15:26,762 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 03:15:26,762 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 03:15:26,762 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 03:15:26,762 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 03:15:26,814 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 03:15:26,815 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 03:15:26,828 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 03:15:26,829 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 269 edits # 5 loaded in 0 seconds.
+2015-03-23 03:15:26,829 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 03:15:26,841 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 03:15:26,853 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 03:15:26,857 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427051726000:1427048126693
+2015-03-23 03:15:26,878 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 04:15:26,908 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 04:15:26,929 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 04:15:26,931 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 2316 bytes.
+2015-03-23 04:15:26,931 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 04:15:26,931 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 04:15:26,931 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 04:15:26,931 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 04:15:26,934 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 04:15:26,935 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 04:15:26,951 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 04:15:26,953 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 2316 edits # 25 loaded in 0 seconds.
+2015-03-23 04:15:26,954 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 04:15:26,966 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 04:15:26,981 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 04:15:26,986 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427055326000:1427051726871
+2015-03-23 04:15:27,014 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 05:15:27,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 05:15:27,066 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 05:15:27,068 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 05:15:27,068 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 05:15:27,068 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 05:15:27,068 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 05:15:27,068 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 05:15:27,070 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 05:15:27,070 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 05:15:27,070 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 05:15:27,070 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 05:15:27,071 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 05:15:27,071 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 05:15:27,071 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 05:15:27,089 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 05:15:27,089 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 05:15:27,090 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 05:15:27,097 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 05:15:27,108 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 05:15:27,112 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427058927000:1427055327006
+2015-03-23 05:15:27,131 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 06:15:27,161 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 06:15:27,173 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 06:15:27,175 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 06:15:27,175 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 06:15:27,175 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 06:15:27,175 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 06:15:27,175 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 06:15:27,226 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 06:15:27,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 06:15:27,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 06:15:27,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 06:15:27,227 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 06:15:27,227 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 06:15:27,228 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 06:15:27,243 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 06:15:27,243 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 06:15:27,244 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 06:15:27,253 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 06:15:27,267 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 06:15:27,271 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427062527000:1427058927124
+2015-03-23 06:15:27,292 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 07:15:27,322 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 07:15:27,344 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 07:15:27,346 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 07:15:27,346 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 07:15:27,346 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 07:15:27,346 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 07:15:27,346 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 07:15:27,348 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 07:15:27,349 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 07:15:27,349 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 07:15:27,349 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 07:15:27,349 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 07:15:27,349 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 07:15:27,350 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 07:15:27,364 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 07:15:27,364 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 07:15:27,364 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 07:15:27,372 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 07:15:27,387 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 07:15:27,392 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427066127000:1427062527285
+2015-03-23 07:15:27,412 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 08:15:27,445 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 08:15:27,457 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 08:15:27,459 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 08:15:27,459 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 08:15:27,459 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 08:15:27,459 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 08:15:27,460 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 08:15:27,462 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 08:15:27,463 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 08:15:27,480 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 08:15:27,480 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 08:15:27,480 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 08:15:27,490 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 08:15:27,505 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 08:15:27,509 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427069727000:1427066127405
+2015-03-23 08:15:27,528 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 09:15:27,558 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 09:15:27,580 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 09:15:27,581 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 09:15:27,582 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 09:15:27,582 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 09:15:27,582 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 09:15:27,582 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 09:15:27,634 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 09:15:27,635 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 09:15:27,648 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 09:15:27,649 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 09:15:27,649 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 09:15:27,660 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 09:15:27,674 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 09:15:27,679 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427073327000:1427069727521
+2015-03-23 09:15:27,697 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 10:15:27,731 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 10:15:27,744 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 10:15:27,746 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 212 bytes.
+2015-03-23 10:15:27,746 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 10:15:27,746 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 10:15:27,746 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 10:15:27,746 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 10:15:27,748 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 10:15:27,748 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 10:15:27,748 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 10:15:27,749 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 10:15:27,749 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 10:15:27,749 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 10:15:27,749 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 10:15:27,764 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 10:15:27,764 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 212 edits # 4 loaded in 0 seconds.
+2015-03-23 10:15:27,764 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 10:15:27,776 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 10:15:27,792 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 10:15:27,797 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427076927000:1427073327691
+2015-03-23 10:15:27,816 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 11:15:27,847 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 11:15:27,869 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 11:15:27,871 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 11:15:27,871 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 11:15:27,871 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 11:15:27,871 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 11:15:27,871 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 11:15:27,874 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 11:15:27,875 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 11:15:27,891 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 11:15:27,891 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 11:15:27,891 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 11:15:27,903 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 11:15:27,918 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 11:15:27,923 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427080527000:1427076927809
+2015-03-23 11:15:27,942 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 12:15:27,976 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 12:15:27,988 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 12:15:27,990 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 12:15:27,990 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 12:15:27,990 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 12:15:27,990 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 12:15:27,990 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 12:15:28,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 12:15:28,042 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 12:15:28,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 12:15:28,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 12:15:28,043 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 12:15:28,043 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 12:15:28,043 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 12:15:28,056 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 12:15:28,056 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 12:15:28,056 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 12:15:28,068 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 12:15:28,084 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 12:15:28,089 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427084127000:1427080527935
+2015-03-23 12:15:28,107 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 13:15:28,137 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 13:15:28,150 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 13:15:28,151 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 2346 bytes.
+2015-03-23 13:15:28,151 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 13:15:28,151 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 13:15:28,151 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 13:15:28,152 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 13:15:28,154 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 13:15:28,155 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 13:15:28,171 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 13:15:28,174 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 2346 edits # 26 loaded in 0 seconds.
+2015-03-23 13:15:28,174 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 13:15:28,182 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 13:15:28,194 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 13:15:28,198 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427087728000:1427084128100
+2015-03-23 13:15:28,217 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 14:15:28,252 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 14:15:28,275 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 14:15:28,277 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 14:15:28,277 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 14:15:28,277 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 14:15:28,277 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 14:15:28,277 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 14:15:28,279 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 14:15:28,279 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 14:15:28,279 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 14:15:28,280 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 14:15:28,280 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 14:15:28,280 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 14:15:28,281 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 14:15:28,294 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 14:15:28,294 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 14:15:28,295 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 14:15:28,303 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 14:15:28,318 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 14:15:28,323 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427091328000:1427087728210
+2015-03-23 14:15:28,342 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 15:15:28,373 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 15:15:28,396 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 15:15:28,398 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 15:15:28,398 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 15:15:28,398 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 15:15:28,398 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 15:15:28,398 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 15:15:28,451 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 15:15:28,451 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 15:15:28,452 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 15:15:28,452 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 15:15:28,452 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 15:15:28,452 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 15:15:28,453 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 15:15:28,471 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 15:15:28,471 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 15:15:28,472 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 15:15:28,481 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 15:15:28,497 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 15:15:28,502 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427094928000:1427091328335
+2015-03-23 15:15:28,522 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 16:15:28,554 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 16:15:28,576 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 16:15:28,578 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 16:15:28,578 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 16:15:28,578 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 16:15:28,578 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 16:15:28,578 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 16:15:28,580 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 16:15:28,580 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 16:15:28,581 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 16:15:28,581 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 16:15:28,581 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 16:15:28,581 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 16:15:28,582 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 16:15:28,599 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 16:15:28,599 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 16:15:28,599 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 16:15:28,609 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 16:15:28,621 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 16:15:28,625 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427098528000:1427094928516
+2015-03-23 16:15:28,644 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 17:15:28,674 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 17:15:28,700 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 17:15:28,702 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 17:15:28,702 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 17:15:28,702 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 17:15:28,702 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 17:15:28,702 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 17:15:28,704 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 17:15:28,704 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 17:15:28,704 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 17:15:28,705 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 17:15:28,705 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 17:15:28,705 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 17:15:28,705 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 17:15:28,721 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 17:15:28,721 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 17:15:28,721 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 17:15:28,731 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 17:15:28,743 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 17:15:28,747 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427102128000:1427098528638
+2015-03-23 17:15:28,768 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 18:15:28,797 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 18:15:28,811 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 18:15:28,813 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 18:15:28,813 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 18:15:28,813 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 18:15:28,813 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 18:15:28,813 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 18:15:28,867 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 18:15:28,867 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 18:15:28,868 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 18:15:28,868 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 18:15:28,868 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 18:15:28,868 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 18:15:28,868 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 18:15:28,880 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 18:15:28,880 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 18:15:28,880 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 18:15:28,890 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 18:15:28,903 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 18:15:28,908 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427105728000:1427102128760
+2015-03-23 18:15:28,933 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 19:15:28,966 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 19:15:28,989 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 19:15:28,990 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 19:15:28,990 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 19:15:28,990 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 19:15:28,991 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 19:15:28,991 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 19:15:28,993 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 19:15:28,994 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 19:15:29,010 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 19:15:29,011 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 19:15:29,011 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 19:15:29,021 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 19:15:29,033 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 19:15:29,037 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427109328000:1427105728926
+2015-03-23 19:15:29,056 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 20:15:29,085 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 20:15:29,107 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 20:15:29,109 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 20:15:29,109 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 20:15:29,109 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 20:15:29,109 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 20:15:29,109 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 20:15:29,111 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 20:15:29,111 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 20:15:29,111 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 20:15:29,112 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 20:15:29,112 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 20:15:29,112 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 20:15:29,113 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 20:15:29,129 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 20:15:29,129 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 20:15:29,130 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 20:15:29,140 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 20:15:29,151 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 20:15:29,155 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427112929000:1427109329049
+2015-03-23 20:15:29,173 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 21:15:29,202 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 21:15:29,224 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 21:15:29,226 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 21:15:29,226 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 21:15:29,226 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 21:15:29,226 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 21:15:29,227 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 21:15:29,282 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 21:15:29,283 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 21:15:29,295 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 21:15:29,296 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 21:15:29,296 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 21:15:29,303 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 21:15:29,313 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 21:15:29,316 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427116529000:1427112929167
+2015-03-23 21:15:29,336 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 22:15:29,368 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 22:15:29,381 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 22:15:29,383 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 22:15:29,383 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 22:15:29,383 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 22:15:29,383 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 22:15:29,383 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 22:15:29,385 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 22:15:29,385 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 22:15:29,385 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 22:15:29,386 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 22:15:29,386 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 22:15:29,386 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 22:15:29,386 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 22:15:29,402 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 22:15:29,402 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 22:15:29,402 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 22:15:29,411 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 22:15:29,423 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 22:15:29,427 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427120129000:1427116529330
+2015-03-23 22:15:29,447 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624
+2015-03-23 23:15:29,478 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 23:15:29,501 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file fsimage size 124624 bytes.
+2015-03-23 23:15:29,502 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Downloaded file edits size 4 bytes.
+2015-03-23 23:15:29,502 INFO org.apache.hadoop.hdfs.util.GSet: VM type       = 64-bit
+2015-03-23 23:15:29,502 INFO org.apache.hadoop.hdfs.util.GSet: 2% max memory = 18.21 MB
+2015-03-23 23:15:29,502 INFO org.apache.hadoop.hdfs.util.GSet: capacity      = 2^21 = 2097152 entries
+2015-03-23 23:15:29,502 INFO org.apache.hadoop.hdfs.util.GSet: recommended=2097152, actual=2097152
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: fsOwner=imdb
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: supergroup=supergroup
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isPermissionEnabled=false
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: dfs.block.invalidate.limit=100
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: isAccessTokenEnabled=false accessKeyUpdateInterval=0 min(s), accessTokenLifetime=0 min(s)
+2015-03-23 23:15:29,504 INFO org.apache.hadoop.hdfs.server.namenode.NameNode: Caching file names occuring more than 10 times 
+2015-03-23 23:15:29,505 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files = 263
+2015-03-23 23:15:29,519 INFO org.apache.hadoop.hdfs.server.common.Storage: Number of files under construction = 0
+2015-03-23 23:15:29,519 INFO org.apache.hadoop.hdfs.server.common.Storage: Edits file /home/imdb/apacheHadoop/tmp/dfs/namesecondary/current/edits of size 4 edits # 0 loaded in 0 seconds.
+2015-03-23 23:15:29,519 INFO org.apache.hadoop.hdfs.server.namenode.FSNamesystem: Number of transactions: 0 Total time for transactions(ms): 0Number of transactions batched in Syncs: 0 Number of syncs: 0 SyncTimes(ms): 0 
+2015-03-23 23:15:29,529 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 23:15:29,541 INFO org.apache.hadoop.hdfs.server.common.Storage: Image file of size 124624 saved in 0 seconds.
+2015-03-23 23:15:29,546 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Posted URL 0.0.0.0:50070putimage=1&port=50090&machine=0.0.0.0&token=-32:245561169:0:1427123729000:1427120129440
+2015-03-23 23:15:29,565 INFO org.apache.hadoop.hdfs.server.namenode.SecondaryNameNode: Checkpoint done. New Image Size: 124624

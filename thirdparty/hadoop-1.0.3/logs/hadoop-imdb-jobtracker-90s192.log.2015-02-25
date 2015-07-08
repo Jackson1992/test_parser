@@ -1,0 +1,1 @@
+2015-02-25 15:04:16,272 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
