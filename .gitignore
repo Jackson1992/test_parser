@@ -26,7 +26,6 @@ install/
 *.o
 Makefile
 config.h
-config.h.in
 config.log
 configure
 claims.log
