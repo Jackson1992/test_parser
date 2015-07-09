@@ -30,7 +30,7 @@ install:
   - chmod 777 configure
   - ./configure
   - make check -j4
-  - sudo make install && sudo Ldconfig
+  - sudo make install && sudo ldconfig
 
 
 script:
