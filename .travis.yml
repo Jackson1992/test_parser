@@ -28,6 +28,7 @@ install:
   - pwd
   - ls -la
   - chmod 777 configure
+  - chmod 777 version.sh
   - ./configure
   - sudo make check -j4
   - sudo make install && sudo ldconfig
