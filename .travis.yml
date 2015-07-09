@@ -32,6 +32,11 @@ install:
   - ./configure
   - sudo make check -j4
   - sudo make install && sudo ldconfig
+  - cd ../Theron-5.01.01
+  - export THERON_HOME=/home/travis/build/Jackson1992/test_parser/thirdparty/Theron-5.01.01>>${BASHRC}
+  - source ${BASHRC}
+  - make -j4 xs=on mode =debug
+
 
 
 script:
