@@ -29,7 +29,7 @@ install:
   - ls -la
   - chmod 777 configure
   - ./configure
-  - make check -j4
+  - sudo make check -j4
   - sudo make install && sudo ldconfig
 
 
