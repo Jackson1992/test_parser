@@ -37,6 +37,7 @@ install:
   - cd ../Theron-5.01.01
   - export THERON_HOME=/home/travis/build/Jackson1992/test_parser/thirdparty/Theron-5.01.01>>${BASHRC}
   - source ${BASHRC}
+  - echo ${THERON_HOME}
   - make -j4 xs=on mode=debug
 
 
