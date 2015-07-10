@@ -38,7 +38,8 @@ install:
   - export THERON_HOME=/home/travis/build/Jackson1992/test_parser/thirdparty/Theron-5.01.01>>${BASHRC}
   - source ${BASHRC}
   - echo ${THERON_HOME}
-  - ll /usr/lib/debug/usr/lib/
+  - ls -l /usr/lib/debug/usr/lib/
+  - sudo find / -name xs_d
   - make -j4 xs=on mode=debug
 
 
