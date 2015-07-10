@@ -8,6 +8,7 @@ before_install:
   - if [ "$CXX" == "clang++" ]; then sudo add-apt-repository -y ppa:h-rayflood/llvm; fi
 
   - sudo apt-get update -qq
+  
 
 install:
   # g++4.8.1
@@ -18,6 +19,7 @@ install:
   - if [ "$CXX" == "clang++" ]; then sudo apt-get install --allow-unauthenticated -qq clang-3.4; fi
   - if [ "$CXX" == "clang++" ]; then export CXX="clang++-3.4"; fi
 
+  - BASHRC=/home/travis/build/.bashrc
   - sudo apt-get install libboost-dev
   - sudo apt-get install libnuma-dbg
   - sudo apt-get install libnuma-dev
