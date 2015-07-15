@@ -45,6 +45,7 @@ install:
   - sudo find / -name xs_d
   - make -j4 xs=on mode=debug
   - ls
+  - echo "hahha "
 
 
 
