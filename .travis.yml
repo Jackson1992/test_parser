@@ -1,3 +1,5 @@
+sudo : false
+
 language: cpp
 compiler: gcc
 matrix:
@@ -43,7 +45,7 @@ install:
   - echo ${THERON_HOME}
   - ls -l /usr/lib/debug/usr/lib/
   - sudo find / -name xs_d
-  - make -j4 xs=on mode=debug
+  - make -j4 mode=debug
   - ls
   - echo "hahha "
 
